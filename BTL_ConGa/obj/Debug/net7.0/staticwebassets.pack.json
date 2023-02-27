@@ -1,0 +1,481 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL_ConGa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BTL_ConGa.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\all.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\all.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\animate.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\baguetteBox.min.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootsnav.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\bootsnav.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\carousel-ticker.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\carousel-ticker.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\code_animate.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\code_animate.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\custom.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\custom.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\style.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\superslides.css",
+      "PackagePath": "staticwebassets\\Chicken\\css\\superslides.css"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\SanPhamGioHang.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\SanPhamGioHang.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThanhPhanAnToan.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\ThanhPhanAnToan.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThanhPhanTuoiNgon.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\ThanhPhanTuoiNgon.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\YeuThichGa.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\YeuThichGa.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\about-img.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\add-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\add-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\add-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\add-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\all-bg-title.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\all-bg-title.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\apple-touch-icon.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\apple-touch-icon.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\big-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\big-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\big-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\big-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\big-img-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\big-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\blog-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\blog-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\blog-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\blog-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\blog-img.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\blog-img.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\categories_img_01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\categories_img_01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\categories_img_02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\categories_img_02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\categories_img_03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\categories_img_03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\favicon.ico",
+      "PackagePath": "staticwebassets\\Chicken\\images\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-04.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-04.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-05.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-05.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-06.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-06.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-07.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-07.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-08.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-08.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-09.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-09.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-10.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-10.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-11.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-11.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\gallery-img-12.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\gallery-img-12.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-1.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-1.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-2.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-2.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-3.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-3.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-pro-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-pro-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-pro-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-pro-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-pro-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-pro-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\img-pro-04.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\img-pro-04.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\ins-bg.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\ins-bg.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-04.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-04.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-05.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-05.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-06.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-06.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-07.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-07.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-08.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-08.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\instagram-img-09.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\instagram-img-09.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\logo.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\logo.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\logoChicken.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\logoChicken.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\1.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\1.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\2.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\2.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\3.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\3.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\4.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\4.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\5.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\5.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\6.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\6.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\7.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\payment-icon\\7.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\sliderChicken1.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\sliderChicken1.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\sliderChicken2.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\sliderChicken2.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\sliderChicken3.png",
+      "PackagePath": "staticwebassets\\Chicken\\images\\sliderChicken3.png"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\smp-img-01.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\smp-img-01.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\smp-img-02.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\smp-img-02.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\images\\smp-img-03.jpg",
+      "PackagePath": "staticwebassets\\Chicken\\images\\smp-img-03.jpg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\baguetteBox.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\baguetteBox.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootsnav.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\bootsnav.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\bootstrap-select.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\contact-form-script.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\contact-form-script.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\custom.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\images-loded.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\images-loded.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\inewsticker.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\inewsticker.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.superslides.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\jquery.superslides.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\Chicken\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\php\\form-process.php",
+      "PackagePath": "staticwebassets\\Chicken\\php\\form-process.php"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\Chicken\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BTL_ConGa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BTL_ConGa.props",
+      "PackagePath": "build\\BTL_ConGa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BTL_ConGa.props",
+      "PackagePath": "buildMultiTargeting\\BTL_ConGa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BTL_ConGa.props",
+      "PackagePath": "buildTransitive\\BTL_ConGa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

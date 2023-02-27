@@ -115,7 +115,7 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars"></i>
                 </button>
-                    <a class="navbar-brand" href="index.cshtml"><img style="width: 200px; height: 108px;" src="../Chicken/images/logoChicken.png" class="logo" alt=""></a>
+                    <a class="navbar-brand" href="../chicken/index"><img style="width: 200px; height: 108px;" src="../Chicken/images/logoChicken.png" class="logo" alt=""></a>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -124,7 +124,7 @@
                     <ul class="nav navbar-nav ml-auto" data-in="fadeInDown" data-out="fadeOutUp">
                         <li class="nav-item active"><a class="nav-link" asp-controller="Chicken" asp-action="index">Trang chủ</a></li>
                         <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Thực đơn</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thực đơn</a>
                             <ul class="dropdown-menu">
                                 <li><a asp-controller="Chicken" asp-action="shop">Combo</a></li>
                                 <li><a asp-controller="Chicken" asp-action="shop">Thức ăn trưa</a></li>
@@ -140,9 +140,9 @@
                         </li>
                         <li class="nav-item"><a class="nav-link" asp-controller="Chicken" asp-action="gallery">Khuyến mại</a></li>
                         <li class="dropdown">
-                            <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Thông tin</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thông tin</a>
                             <ul class="dropdown-menu">
-                                <li><a asp-controller="Chicken" asp-action="about">Giới thiệu</a></li>
+                                <li> <a href="../chicken/about">Giới thiệu</a></li>
                                 <li><a asp-controller="Chicken" asp-action="contact_us">Liên hệ</a></li>
                                 @*<li><a asp-controller="Chicken" asp-action="shop_detail">Thức ăn trưa</a></li>
                                 <li><a asp-controller="Chicken" asp-action="cart">Đồng giá</a></li>

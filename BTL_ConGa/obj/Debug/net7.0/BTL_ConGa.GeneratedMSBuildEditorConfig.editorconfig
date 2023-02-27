@@ -9,69 +9,69 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTL_ConGa
 build_property.RootNamespace = BTL_ConGa
-build_property.ProjectDir = D:\Tai_Lieu_Ki_6\Lập trình web\BTL\Tài liệu\BTL_ConGa-20230226T131238Z-001\BTL_ConGa\BTL_ConGa\
+build_property.ProjectDir = D:\Kì 2 Năm 3\Lập trình Web\BTL_ConGa\BTL_ConGa\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Tai_Lieu_Ki_6\Lập trình web\BTL\Tài liệu\BTL_ConGa-20230226T131238Z-001\BTL_ConGa\BTL_ConGa
+build_property.MSBuildProjectDirectory = D:\Kì 2 Năm 3\Lập trình Web\BTL_ConGa\BTL_ConGa
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/about.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/about.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxhYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/cart.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/cart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjYXJ0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/checkout.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/checkout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjaGVja291dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/contact_us.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/contact_us.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjb250YWN0X3VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/gallery.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/gallery.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxnYWxsZXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/Index.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/my_account.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/my_account.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxteV9hY2NvdW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/shop.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/shop.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxzaG9wLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/shop_detail.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/shop_detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxzaG9wX2RldGFpbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Chicken/wishlist.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/wishlist.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblx3aXNobGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Shared/Error.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/_ViewImports.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/_ViewStart.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Tai_Lieu_Ki_6/Lập trình web/BTL/Tài liệu/BTL_ConGa-20230226T131238Z-001/BTL_ConGa/BTL_ConGa/Views/Shared/_Layout.cshtml]
+[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lbfm7ho925

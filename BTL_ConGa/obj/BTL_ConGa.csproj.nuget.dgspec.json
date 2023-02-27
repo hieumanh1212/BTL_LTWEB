@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Tai_Lieu_Ki_6\\Lập trình web\\BTL\\Tài liệu\\BTL_ConGa-20230226T131238Z-001\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {}
+    "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {}
   },
   "projects": {
-    "D:\\Tai_Lieu_Ki_6\\Lập trình web\\BTL\\Tài liệu\\BTL_ConGa-20230226T131238Z-001\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {
+    "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Tai_Lieu_Ki_6\\Lập trình web\\BTL\\Tài liệu\\BTL_ConGa-20230226T131238Z-001\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
+        "projectUniqueName": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
         "projectName": "BTL_ConGa",
-        "projectPath": "D:\\Tai_Lieu_Ki_6\\Lập trình web\\BTL\\Tài liệu\\BTL_ConGa-20230226T131238Z-001\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Tai_Lieu_Ki_6\\Lập trình web\\BTL\\Tài liệu\\BTL_ConGa-20230226T131238Z-001\\BTL_ConGa\\BTL_ConGa\\obj\\",
+        "projectPath": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
