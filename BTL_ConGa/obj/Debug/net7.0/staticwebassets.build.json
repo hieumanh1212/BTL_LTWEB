@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OByurJbg4I24w76r61In2jLs7O2iLUA9h+ZetyELxTc=",
+  "Hash": "sJKIZAVJGB2JZNnulYtWKG9gJHY8TPyOflRe1Et2MSY=",
   "Source": "BTL_ConGa",
   "BasePath": "_content/BTL_ConGa",
   "Mode": "Default",
@@ -255,12 +255,12 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\responsive.css"
     },
     {
-      "Identity": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\style.css",
+      "Identity": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\styles.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/css/style.css",
+      "RelativePath": "Chicken/css/styles.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -269,7 +269,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\css\\style.css"
+      "OriginalItemSpec": "wwwroot\\Chicken\\css\\styles.css"
     },
     {
       "Identity": "D:\\Kì 2 Năm 3\\Lập trình Web\\BTL_ConGa\\BTL_ConGa\\wwwroot\\Chicken\\css\\superslides.css",
