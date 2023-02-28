@@ -9,69 +9,125 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BTL_ConGa
 build_property.RootNamespace = BTL_ConGa
-build_property.ProjectDir = D:\Kì 2 Năm 3\Lập trình Web\BTL_ConGa\BTL_ConGa\
+build_property.ProjectDir = E:\ASP.NET\BTL_ConGa\BTL_ConGa\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Kì 2 Năm 3\Lập trình Web\BTL_ConGa\BTL_ConGa
+build_property.MSBuildProjectDirectory = E:\ASP.NET\BTL_ConGa\BTL_ConGa
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/about.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxhYm91dC5jc2h0bWw=
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/cart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjYXJ0LmNzaHRtbA==
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Pages/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/checkout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjaGVja291dC5jc2h0bWw=
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/contact_us.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxjb250YWN0X3VzLmNzaHRtbA==
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/gallery.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxnYWxsZXJ5LmNzaHRtbA==
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/BaiViet/BaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxCYWlWaWV0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxJbmRleC5jc2h0bWw=
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/BaiViet/ChiTietBaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmFpVmlldFxDaGlUaWV0QmFpVmlldC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/my_account.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxteV9hY2NvdW50LmNzaHRtbA==
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ChiTietMonAn/ComBo/CanhGaSotNguVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldE1vbkFuXENvbUJvXENhbmhHYVNvdE5ndVZpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/shop.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxzaG9wLmNzaHRtbA==
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ChiTietMonAn/DongGia/BanhXepTom.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldE1vbkFuXERvbmdHaWFcQmFuaFhlcFRvbS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/shop_detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblxzaG9wX2RldGFpbC5jc2h0bWw=
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ChiTietMonAn/NuocUong/Coca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldE1vbkFuXE51b2NVb25nXENvY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Chicken/wishlist.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpY2tlblx3aXNobGlzdC5jc2h0bWw=
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ChiTietMonAn/ThucAnTrua/ComDuiGaSotNguVi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2hpVGlldE1vbkFuXFRodWNBblRydWFcQ29tRHVpR2FTb3ROZ3VWaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/Error.cshtml]
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/GioHang/GioHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xHaW9IYW5nLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/GioHang/ThanhToan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lvSGFuZ1xUaGFuaFRvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/KhuyenMai/ChiTietKhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXENoaVRpZXRLaHV5ZW5NYWkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/KhuyenMai/KhuyenMai.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2h1eWVuTWFpXEtodXllbk1haS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/MonAnYeuThich/wishlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uQW5ZZXVUaGljaFx3aXNobGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/Shared/_LayoutChicken.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRDaGlja2VuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/_ViewImports.cshtml]
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/TaiKhoan/TaiKhoan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cVGFpS2hvYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThongTin/GioiThieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdUaW5cR2lvaVRoaWV1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThongTin/LienHe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhvbmdUaW5cTGllbkhlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThucDon/ComBo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxDb21Cby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThucDon/DongGia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxEb25nR2lhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThucDon/MonChinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxNb25DaGluaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThucDon/NuocUong.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxOdW9jVW9uZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/ThucDon/ThucAnTrua.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGh1Y0RvblxUaHVjQW5UcnVhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/TrangChu/TrangChu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbmdDaHVcVHJhbmdDaHUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/_ViewStart.cshtml]
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Kì 2 Năm 3/Lập trình Web/BTL_ConGa/BTL_ConGa/Views/Shared/_Layout.cshtml]
+[E:/ASP.NET/BTL_ConGa/BTL_ConGa/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-lbfm7ho925
