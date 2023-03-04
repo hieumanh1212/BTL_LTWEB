@@ -8,5 +8,10 @@ namespace BTL_ConGa.Controllers
         {
             return View("Views/TaiKhoan/TaiKhoan.cshtml");
         }
+
+        public IActionResult DoiMatKhau()
+        {
+            return View();
+        }
     }
 }
