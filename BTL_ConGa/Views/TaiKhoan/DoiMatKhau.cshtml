@@ -28,6 +28,9 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="../Chicken/css/custom.css">
 
+    <!-- Ẩn hiện mật khẩu-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.../Chicken/js/1.4.2/respond.min.js"></script>
@@ -47,19 +50,22 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="password" class="form-control" id="name" name="name" placeholder="Mật khẩu cũ" required data-error="Nhập mật khẩu cũ">
+                                        <input type="password" class="form-control" id="oldpassword" name="name" placeholder="Mật khẩu cũ" required data-error="Nhập mật khẩu cũ" style="">
+                                        <i class="fa-solid fa-eye" id="show-password1" style="position:absolute; top: 28%;right: 4%"></i>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="password" placeholder="Mật khẩu mới" id="email" class="form-control" name="name" required data-error="Nhập mật khẩu mới">
+                                        <input type="password" placeholder="Mật khẩu mới" id="newpassword" class="form-control" name="name" required data-error="Nhập mật khẩu mới" style="">
+                                        <i class="fa-solid fa-eye" id="show-password2" style="position:absolute; top: 28%;right: 4%"></i>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
-                                        <input type="password" class="form-control" id="subject" name="name" placeholder="Xác nhận mật khẩu" required data-error="Xác nhận mật khẩu mới">
+                                        <input type="password" class="form-control" id="acceptnewpassword" name="name" placeholder="Xác nhận mật khẩu" required data-error="Xác nhận mật khẩu mới" style="">
+                                        <i class="fa-solid fa-eye" id="show-password3" style="position:absolute; top: 28%;right: 4%"></i>
                                         <div class="help-block with-errors"></div>
                                     </div>
                                 </div>
@@ -76,6 +82,51 @@
             </div>
         </div>
     </div>
+
+    <!-- Script-->
+    <script>
+        //Mật khẩu cũ
+        var passField = document.querySelector('#oldpassword');
+        var btn = document.querySelector("#show-password1");
+        btn.onclick = function(){
+            if(passField.type === "password")
+            {
+                passField.type = "text";
+                btn.className = "fa-solid fa-eye-slash"
+            }
+            else
+            {
+                passField.type = "password";
+                btn.className = "fa-solid fa-eye"
+            }
+        }
+        //Mật khẩu mới
+        var passField1 = document.querySelector('#newpassword');
+        var btn1 = document.querySelector("#show-password2");
+        btn1.onclick = function () {
+            if (passField1.type === "password") {
+                passField1.type = "text";
+                btn1.className = "fa-solid fa-eye-slash"
+            }
+            else {
+                passField1.type = "password";
+                btn1.className = "fa-solid fa-eye"
+            }
+        }
+        //Xác nhận mới khẩu
+        var passField2 = document.querySelector('#acceptnewpassword');
+        var btn2 = document.querySelector("#show-password3");
+        btn2.onclick = function () {
+            if (passField2.type === "password") {
+                passField2.type = "text";
+                btn2.className = "fa-solid fa-eye-slash"
+            }
+            else {
+                passField2.type = "password";
+                btn2.className = "fa-solid fa-eye"
+            }
+        }
+    </script>
 
 </body>
 
