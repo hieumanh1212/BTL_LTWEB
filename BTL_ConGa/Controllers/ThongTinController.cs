@@ -12,5 +12,9 @@ namespace BTL_ConGa.Controllers
         {
             return View("Views/ThongTin/LienHe.cshtml");
         }
+        public IActionResult DiaChiNhaHang()
+        {
+            return View("Views/ThongTin/DiaChiNhaHang.cshtml");
+        }
     }
 }

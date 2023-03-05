@@ -8,10 +8,25 @@ namespace BTL_ConGa.Controllers
         {
             return View("Views/TaiKhoan/TaiKhoan.cshtml");
         }
-
+        public IActionResult ChiTietTaiKhoan()
+        {
+            return View("Views/TaiKhoan/ChiTietTaiKhoan.cshtml");
+        }
         public IActionResult DoiMatKhau()
         {
-            return View();
+            return View("Views/TaiKhoan/DoiMatKhau.cshtml");
+        }
+        public IActionResult LichSuDatHang()
+        {
+            return View("Views/TaiKhoan/LichSuDatHang.cshtml");
+        }
+        public IActionResult DangNhap()
+        {
+            return View("Views/TaiKhoan/DangNhap.cshtml");
+        }
+        public IActionResult DangKy()
+        {
+            return View("Views/TaiKhoan/DangKy.cshtml");
         }
     }
 }

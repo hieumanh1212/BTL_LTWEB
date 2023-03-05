@@ -9068,19 +9068,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\DUY THIEN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Downloads\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
+      "projectUniqueName": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
       "projectName": "BTL_ConGa",
-      "projectPath": "C:\\Users\\Admin\\Downloads\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Downloads\\BTL_ConGa\\BTL_ConGa\\obj\\",
+      "projectPath": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
+      "packagesPath": "C:\\Users\\DUY THIEN\\.nuget\\packages\\",
+      "outputPath": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DUY THIEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

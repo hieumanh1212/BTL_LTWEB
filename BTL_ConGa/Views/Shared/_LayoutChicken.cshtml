@@ -22,11 +22,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../Chicken/css/bootstraps.min.css">
     <!-- Site CSS -->
-    <link rel="stylesheet" href="../Chicken/css/styles.css">
+    <link rel="stylesheet" href="../Chicken/css/styles1.css">
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="../Chicken/css/responsives.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../Chicken/css/customs.css">
+    <link rel="stylesheet" href="../Chicken/css/custom1.css">
 
 
     <!--[if lt IE 9]>
@@ -55,17 +55,21 @@
                     <div class="our-link">
                         <ul>
                             <li><a asp-controller="TaiKhoan" asp-action="TaiKhoan"><i class="fa fa-user s_color"></i>Tài Khoản của tôi</a></li>
-                            <li><a href="#"><i class="fas fa-location-arrow"></i>Địa điểm của chúng tôi</a></li>
+                            <li><a asp-controller="ThongTin" asp-action="DiaChiNhaHang"><i class="fas fa-location-arrow"></i>Địa điểm của chúng tôi</a></li>
                             <li><a asp-controller="ThongTin" asp-action="LienHe"><i class="fas fa-headset"></i> Liên hệ với chúng tôi</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div class="login-box">
+                    @*<div class="login-box">
                         <select id="basic" class="selectpicker show-tick form-control" data-placeholder="Sign In">
                             <option>Register Here</option>
                             <option>Sign In</option>
                         </select>
+                    </div>*@
+                    <div class="login-box">
+                        <a asp-controller="TaiKhoan" asp-action="DangNhap" style="color: white; font-size: 18px;"><i class="fa fa-user s_color"></i>Đăng nhập</a>
+                        <a asp-controller="TaiKhoan" asp-action="DangKy" style="margin-left: 10px; color: white; font-size: 18px;"><i class="fa fa-user s_color"></i>Đăng kí</a>
                     </div>
                     <div class="text-slid-box">
                         <div id="offer-box" class="carouselTicker">
@@ -194,7 +198,7 @@
         <div class="main-instagram owl-carousel owl-theme">
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/CanhGaSotCayChayLuoi.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/CanhGaSotCayChayLuoi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -202,7 +206,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/CanhGaSotCreamyOnion.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/CanhGaSotCreamyOnion.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -210,7 +214,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/CanhGaTruyenThong.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/CanhGaTruyenThong.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -218,7 +222,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/DuiGaSotCayChayluoi.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/DuiGaSotCayChayluoi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -226,7 +230,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/DuiGaSotNguVi.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/DuiGaSotNguVi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -234,7 +238,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/GaNuaConSotCayChayLuoi.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/GaNuaConSotCayChayLuoi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -242,7 +246,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/GaNuaConSotCreamyOnion.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/GaNuaConSotCreamyOnion.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
@@ -250,7 +254,7 @@
             </div>
             <div class="item">
                 <div class="ins-inner-box">
-                    <img src="../Chicken/images/ThucDon/ComBo/GaNuaConSotNguVi.png" alt="" />
+                    <img src="../Chicken/images/ThucDon/MonChinh/GaNuaConSotNguVi.png" alt="" />
                     <div class="hov-in">
                         <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
