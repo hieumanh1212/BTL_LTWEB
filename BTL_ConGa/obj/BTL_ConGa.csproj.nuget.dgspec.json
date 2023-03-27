@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {}
+    "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\BTL_ConGa.csproj": {}
   },
   "projects": {
-    "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj": {
+    "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\BTL_ConGa.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\BTL_ConGa.csproj",
         "projectName": "BTL_ConGa",
-        "projectPath": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\BTL_ConGa.csproj",
-        "packagesPath": "C:\\Users\\DUY THIEN\\.nuget\\packages\\",
-        "outputPath": "E:\\ASP.NET\\BTL_ConGa\\BTL_ConGa\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\BTL_ConGa.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DUY THIEN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,20 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.4, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[7.0.4, )"

@@ -69,7 +69,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold">Đăng ký</button>
+                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" onclick="sukienDangKy();">Đăng ký</button>
                                     <div class="help-block with-errors"></div>
                                     
                                 </div>
@@ -112,5 +112,27 @@
             passField2.type = "password";
             btn2.className = "fa-solid fas fa-eye"
         }
+    }
+</script>
+
+@*Sự kiện đăng ký*@
+<script type="text/javascript">
+    function sukienDangKy() {
+        var url = 'https://localhost:7067/api/TaiKhoanAPI' +
+            $('input').eq(0).val() + '&name=' + $('input').eq(1).val() +
+            '&adress=' + $('input').eq(2).val() + '&phoneNumber=' +
+            $('input').eq(3).val();
+        $.ajax({
+            url: url,
+            method: 'POST',
+            contentType: 'json',
+            dataType: 'json',
+            error: function (response) {
+                alert("Thêm mới không thành công");
+            },
+            success: function (reponse) {
+                alert("Thêm mới thành công");
+            }
+        });
     }
 </script>
