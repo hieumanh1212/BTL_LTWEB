@@ -57,7 +57,7 @@
                             
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold">Đăng nhập</button>
+                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" onclick="dangnhap()">Đăng nhập</button>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <p style="text-align:center;"><a href="#">Quên mật khẩu?</a></p>
@@ -75,7 +75,7 @@
 <!-- Script-->
 <script>
    
-    //Mật khẩu mới
+    //Ẩn hiện
     var passField = document.querySelector('#password');
     var btn1 = document.querySelector("#showpassword");
     btn1.onclick = function () {
@@ -89,4 +89,50 @@
         }
     }
     
+</script>
+
+<!-- Đăng nhập -->
+<script type="text/javascript">
+    function dangnhap() {
+
+        var inputUsername = document.getElementById("nameuser").value;
+        var inputPassword = document.getElementById("password").value;
+        
+
+        // Dữ liệu cần gửi đi
+        const data = {
+            
+            Username: inputUsername,
+            Password: inputPassword,
+            AccountType: 'LTK02',
+        };
+
+        // Tạo request
+        fetch('/api/TaiKhoanAPI/DangNhap', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => {
+                // Xử lý response trả về từ API
+                if (response.ok) {
+                    // Xử lý nếu response trả về OK (200)
+                    console.log('Đăng nhập thành công');
+                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
+                    window.location.href = '/TrangChu/TrangChu';
+                }else {
+                    // Xử lý nếu response trả về lỗi
+                    console.log('Đăng nhập không thành công dang nhap');
+                    //window.location.href = '/TrangChu/TrangChu';                    
+                    console.log(response);
+                }
+            })
+            .catch(error => {
+                // Xử lý nếu có lỗi xảy ra
+                console.log('Có lỗi xảy ra', error);
+            });
+
+    }
 </script>
