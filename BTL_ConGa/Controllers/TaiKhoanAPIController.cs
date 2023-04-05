@@ -99,16 +99,30 @@ namespace BTL_ConGa.Controllers
 
         [HttpPost]
         [Route("DangNhap")]
-        public IActionResult DangNhap([FromBody] TaiKhoanOnlyModel taikhoan)
+        public IActionResult DangNhap([FromBody] TaiKhoanDangNhap taikhoan)
         {
             try
             {
-                var checkUsernameExsit = db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == taikhoan.Username && x.MatKhau == taikhoan.Password 
-                && x.MaLoaiTaiKhoan == taikhoan.AccountType);
+                var checkUsernameExsit = db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == taikhoan.Username && x.MatKhau == taikhoan.Password);
                 //Tai khoan da ton tai
                 if (checkUsernameExsit != null)
                 {
-                    return Ok();                   
+                    //Nhân viên
+                    if (checkUsernameExsit.MaLoaiTaiKhoan == "LTK01")
+                    {
+                        return Accepted();  //202
+                    }
+                    //Khách hàng
+                    else if (checkUsernameExsit.MaLoaiTaiKhoan == "LTK02")
+                    {
+                        return NoContent(); //204
+                    }
+                    //Admin
+                    else
+                    {
+                        return Ok();  //200
+                    }
+                                     
                     //return RedirectToAction("TrangChu", "TrangChu");
                 }
                 else

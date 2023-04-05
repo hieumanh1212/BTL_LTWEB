@@ -1,7 +1,4 @@
-﻿
-
-
-<!-- Start Top Search -->
+﻿<!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
         <div class="input-group">
@@ -37,24 +34,24 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="nameuser" name="name" placeholder="Tên đăng nhập" required data-error="Nhập tên đăng nhập" >
-                                   
+                                    <input type="text" class="form-control" id="nameuser" name="name" placeholder="Tên đăng nhập" required data-error="Nhập tên đăng nhập">
+
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="password" placeholder="Mật khẩu" id="password" class="form-control" name="password" required data-error="Nhập mật khẩu" >
+                                    <input type="password" placeholder="Mật khẩu" id="password" class="form-control" name="password" required data-error="Nhập mật khẩu">
                                     <i class="fa-solid fas fa-eye" id="showpassword" style="position:absolute; top: 28%;right: 4%"></i>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <div class="form-group"> 
-                                    <label> <input style="margin-bottom:15px;" type="checkbox"  id="check" name="name" required> Nhớ tài khoản</label>
+                                <div class="form-group">
+                                    <label> <input style="margin-bottom:15px;" type="checkbox" id="check" name="name" required> Nhớ tài khoản</label>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" onclick="dangnhap()">Đăng nhập</button>
@@ -63,7 +60,7 @@
                                 <p style="text-align:center;"><a href="#">Quên mật khẩu?</a></p>
                                 <p style="text-align:center;">Bạn chưa có tài khoản? <a asp-controller="TaiKhoan" asp-action="DangKy">Đăng ký</a></p>
                             </div>
-                            
+
                         </div>
                     </form>
                 </div>
@@ -74,7 +71,7 @@
 
 <!-- Script-->
 <script>
-   
+
     //Ẩn hiện
     var passField = document.querySelector('#password');
     var btn1 = document.querySelector("#showpassword");
@@ -88,7 +85,7 @@
             btn1.className = "fa-solid fas fa-eye"
         }
     }
-    
+
 </script>
 
 <!-- Đăng nhập -->
@@ -97,14 +94,13 @@
 
         var inputUsername = document.getElementById("nameuser").value;
         var inputPassword = document.getElementById("password").value;
-        
+
 
         // Dữ liệu cần gửi đi
         const data = {
-            
+
             Username: inputUsername,
             Password: inputPassword,
-            AccountType: 'LTK02',
         };
 
         // Tạo request
@@ -117,15 +113,28 @@
         })
             .then(response => {
                 // Xử lý response trả về từ API
-                if (response.ok) {
+                //Nhân viên
+                if (response.status == 202) {
+                    console.log('Đăng nhập thành công');
+                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
+                    window.location.href = '/TaiKhoan/ChiTietTaiKhoan';
+                }
+                //Khách hàng
+                else if (response.status == 204) {
+                    console.log('Đăng nhập thành công');
+                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
+                    window.location.href = '/TaiKhoan/DoiMatKHau';
+                }
+                //Admin
+                else if (response.status == 200) {
                     // Xử lý nếu response trả về OK (200)
                     console.log('Đăng nhập thành công');
                     // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
-                    window.location.href = '/TrangChu/TrangChu';
-                }else {
+                    window.location.href = '/TaiKhoan/LichSuDatHang';
+                } else {
                     // Xử lý nếu response trả về lỗi
                     console.log('Đăng nhập không thành công dang nhap');
-                    //window.location.href = '/TrangChu/TrangChu';                    
+                    //window.location.href = '/TrangChu/TrangChu';
                     console.log(response);
                 }
             })
@@ -136,3 +145,4 @@
 
     }
 </script>
+
