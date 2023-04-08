@@ -80,5 +80,24 @@ namespace BTL_ConGa.Controllers
                 throw new Exception("Đăng nhập không thành công");
             }
         }
+
+        //4. httpPut để chỉnh sửa thông tin một khách hàng
+        [HttpPut]
+        public bool UpdateProfile(string makhach, string hovaten, string sodienthoai, string diachi, string email, string gioitinh, DateTime ngaysinh)
+        {
+            BtlWebContext dbCustomer = new BtlWebContext();
+            //Lấy mã khách đã có
+            KhachHang customer = dbCustomer.KhachHangs.FirstOrDefault(x => x.IdkhachHang == makhach);
+            if (customer == null) return false;
+            //customer.Makhach = id;
+            customer.TenKhachHang = hovaten;
+            customer.SoDienThoai = sodienthoai;
+            customer.DiaChi = diachi;
+            customer.Email = email;
+            customer.GioiTinh = gioitinh;
+            customer.NgaySinh = ngaysinh;
+            dbCustomer.SaveChanges();
+            return true;
+        }
     }
 }

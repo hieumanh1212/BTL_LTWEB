@@ -1,5 +1,7 @@
 ﻿using BTL_ConGa.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Globalization;
 
 namespace BTL_ConGa.Controllers
 {
@@ -12,6 +14,14 @@ namespace BTL_ConGa.Controllers
         }
         public IActionResult ChiTietTaiKhoan()
         {
+            ViewBag.IDCustomer = HttpContext.Session.GetString("IDCustomer");
+            ViewBag.Name = HttpContext.Session.GetString("Name");
+            ViewBag.Phone = HttpContext.Session.GetString("Phone");
+            ViewBag.Address = HttpContext.Session.GetString("Address");
+            ViewBag.Email = HttpContext.Session.GetString("Email");
+            ViewBag.Gender = HttpContext.Session.GetString("Gender");
+            ViewBag.Birth = HttpContext.Session.GetString("Birth");
+
             return View("Views/TaiKhoan/ChiTietTaiKhoan.cshtml");
         }
         public IActionResult DoiMatKhau()
@@ -22,6 +32,8 @@ namespace BTL_ConGa.Controllers
         {
             return View("Views/TaiKhoan/LichSuDatHang.cshtml");
         }
+
+        [HttpGet]
         public IActionResult DangNhap()
         {
             if (HttpContext.Session.GetString("UserName") == null)
@@ -40,9 +52,17 @@ namespace BTL_ConGa.Controllers
             if (HttpContext.Session.GetString("UserName") == null)
             {
                 var u = db.TaiKhoans.Where(x => x.TaiKhoan1 == user.TaiKhoan1 && x.MatKhau == user.MatKhau).FirstOrDefault();
+                var k = db.KhachHangs.Where(x => x.TaiKhoan == user.TaiKhoan1).FirstOrDefault();
                 if (u != null)
                 {
                     HttpContext.Session.SetString("UserName", u.TaiKhoan1.ToString());
+                    HttpContext.Session.SetString("IDCustomer", k.IdkhachHang.ToString());
+                    HttpContext.Session.SetString("Name", k.TenKhachHang.ToString());
+                    HttpContext.Session.SetString("Phone", k.SoDienThoai.ToString());
+                    HttpContext.Session.SetString("Address", k.DiaChi.ToString());
+                    HttpContext.Session.SetString("Email", k.Email.ToString());
+                    HttpContext.Session.SetString("Gender", k.GioiTinh.ToString());
+                    HttpContext.Session.SetString("Birth", k.NgaySinh.ToString("yyyy-MM-dd"));
                     if (u.MaLoaiTaiKhoan == "LTK01")
                     {
                         return RedirectToAction("ChiTietTaiKhoan", "TaiKhoan");
@@ -82,5 +102,8 @@ namespace BTL_ConGa.Controllers
             ViewBag.lastId = lastId;
             return View(lastId);
         }
+
     }
 }
+
+
