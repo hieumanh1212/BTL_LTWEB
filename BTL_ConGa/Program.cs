@@ -11,6 +11,11 @@ var connectionString = builder.Configuration.GetConnectionString("BtlWebContext"
 builder.Services.AddDbContext<BtlWebContext>(x => x.UseSqlServer(connectionString));
 builder.Services.AddScoped<IDanhMucSPRepository, DanhMucSPRepository>();
 builder.Services.AddScoped<IUserInforService, UserInforService>();
+
+builder.Services.AddSession();
+
+builder.Services.AddHttpContextAccessor();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -27,6 +32,8 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+
+app.UseSession();
 
 app.MapControllerRoute(
     name: "default",

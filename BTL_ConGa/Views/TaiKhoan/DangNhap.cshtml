@@ -1,7 +1,7 @@
 ﻿@{
     ViewBag.CheckLogin = false;
 }
-
+@model BTL_ConGa.Models.TaiKhoan
 <!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
@@ -34,31 +34,35 @@
             <div class="col-lg-8 col-sm-12">
                 <div class="contact-form-right">
                     <h2 style="text-align:center">Đăng nhập</h2>
-                    <form id="contactForm">
+                    <!-- Từ đây -->
+                    @*<form id="contactForm">*@
+                        @using(Html.BeginForm("DangNhap","TaiKhoan", FormMethod.Post)){
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" id="nameuser" name="name" placeholder="Tên đăng nhập" required data-error="Nhập tên đăng nhập">
+                                    @Html.TextBoxFor(x=>x.TaiKhoan1, new{@class="form-control form-control-user",placeholder="Tên đăng nhập", required="required", autofocus="autofocus",id="nameuser",name="name"})
+                                    @*<input type="text" class="form-control" id="nameuser" name="name" placeholder="Tên đăng nhập" required data-error="Nhập tên đăng nhập">*@
 
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <input type="password" placeholder="Mật khẩu" id="password" class="form-control" name="password" required data-error="Nhập mật khẩu">
+                                    @Html.TextBoxFor(x=>x.MatKhau, new{@class="form-control form-control-user",id="password",type="password", placeholder="Mật khẩu", required="required", autofocus="autofocus"})
+                                    @*<input type="password" placeholder="Mật khẩu" id="password" class="form-control" name="password" required data-error="Nhập mật khẩu">*@
                                     <i class="fa-solid fas fa-eye" id="showpassword" style="position:absolute; top: 28%;right: 4%"></i>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <label> <input style="margin-bottom:15px;" type="checkbox" id="check" name="name" required> Nhớ tài khoản</label>
+                                    <label> <input style="margin-bottom:15px;" type="checkbox" id="check" name="name"> Nhớ tài khoản</label>
                                 </div>
                             </div>
 
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" onclick="dangnhap()">Đăng nhập</button>
+                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" type="submit">Đăng nhập</button>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <p style="text-align:center;"><a href="#">Quên mật khẩu?</a></p>
@@ -66,7 +70,9 @@
                             </div>
 
                         </div>
-                    </form>
+                        }
+                    @*</form>*@
+
                 </div>
             </div>
         </div>
@@ -93,62 +99,5 @@
 </script>
 
 <!-- Đăng nhập -->
-<script type="text/javascript">
-    function dangnhap() {
 
-        var inputUsername = document.getElementById("nameuser").value;
-        var inputPassword = document.getElementById("password").value;
-
-
-        // Dữ liệu cần gửi đi
-        const data = {
-
-            Username: inputUsername,
-            Password: inputPassword,
-        };
-
-        // Tạo request
-        fetch('/api/TaiKhoanAPI/DangNhap', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify(data)
-        })
-            .then(response => {
-                // Xử lý response trả về từ API
-                //Nhân viên
-                if (response.status == 202) {
-                    console.log('Đăng nhập thành công');
-                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
-                    window.location.href = '/TaiKhoan/ChiTietTaiKhoan';
-                }
-                //Khách hàng
-                else if (response.status == 204) {
-                    console.log('Đăng nhập thành công');
-                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
-                    window.location.href = '/TrangChu/TrangChu';
-                    ViewBag.CheckLogin = true;
-                    console.log(ViewBag.CheckLogin);
-                }
-                //Admin
-                else if (response.status == 200) {
-                    // Xử lý nếu response trả về OK (200)
-                    console.log('Đăng nhập thành công');
-                    // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
-                    window.location.href = '/TaiKhoan/LichSuDatHang';
-                } else {
-                    // Xử lý nếu response trả về lỗi
-                    console.log('Đăng nhập không thành công dang nhap');
-                    //window.location.href = '/TrangChu/TrangChu';
-                    console.log(response);
-                }
-            })
-            .catch(error => {
-                // Xử lý nếu có lỗi xảy ra
-                console.log('Có lỗi xảy ra', error);
-            });
-
-    }
-</script>
 

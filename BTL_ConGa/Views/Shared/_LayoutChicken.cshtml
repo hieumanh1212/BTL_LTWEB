@@ -1,6 +1,5 @@
-﻿@{
-    bool checklogin = false;
-}
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
 
 
 <!DOCTYPE html>
@@ -73,9 +72,9 @@
                         </select>
                     </div>*@
                     <div class="login-box">
-                        @if (ViewBag.CheckLogin != null && ViewBag.CheckLogin == true)
+                        @if (HttpContextAccessor.HttpContext.Session.GetString("UserName") != null)
                         {
-                            <a asp-controller="TaiKhoan" asp-action="DangKy" style="margin-left: 10px; color: white; font-size: 18px;">Đăng xuất</a>
+                            <a asp-controller="TaiKhoan" asp-action="DangXuat" style="margin-left: 10px; color: white; font-size: 18px;">Đăng xuất</a>
                         }
                         else
                         {
