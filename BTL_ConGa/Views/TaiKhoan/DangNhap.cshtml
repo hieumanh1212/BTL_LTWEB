@@ -1,4 +1,8 @@
-﻿<!-- Start Top Search -->
+﻿@{
+    ViewBag.CheckLogin = false;
+}
+
+<!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
         <div class="input-group">
@@ -123,7 +127,9 @@
                 else if (response.status == 204) {
                     console.log('Đăng nhập thành công');
                     // Thực hiện chuyển hướng trang bằng cách sử dụng window.location.href
-                    window.location.href = '/TaiKhoan/DoiMatKHau';
+                    window.location.href = '/TrangChu/TrangChu';
+                    ViewBag.CheckLogin = true;
+                    console.log(ViewBag.CheckLogin);
                 }
                 //Admin
                 else if (response.status == 200) {

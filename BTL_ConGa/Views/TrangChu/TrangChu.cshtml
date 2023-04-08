@@ -1,6 +1,35 @@
-﻿
+﻿@using X.PagedList.Mvc.Core;
+@using X.PagedList;
+@model X.PagedList.IPagedList<MonAn>
+@{
+    BtlWebContext db = new BtlWebContext();
+    var baiViet = db.TinTucs.ToList();
+    ViewBag.CheckLogin = ViewBag.CheckLogin;
+}
+<head>
+    <style>
+        .pagination {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        }
 
+        .page-numbers {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
 
+            .page-numbers li {
+                display: inline-block;
+                margin-right: 25px;
+                font-size: 25px;
+            }
+
+    </style>
+
+</head>
 <!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
@@ -80,182 +109,72 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="special-menu text-center">
-                    <div class="button-group filter-button-group">
-                        <button class="active" data-filter="*">Tất cả</button>
-                        <button data-filter=".top-featured">Nổi bật</button>
-                        <button data-filter=".best-seller">Bán tốt nhất</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+
 
         <div class="row special-list">
-            <div class="col-lg-3 col-md-6 special-grid best-seller">
-                <div class="products-single fix">
-                    <div class="box-img-hover">
-                        <div class="type-lb">
-                            <p class="sale">Giảm giá</p>
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-6 special-grid best-seller">
+                    <div class="products-single fix">
+                        <div class="box-img-hover">
+
+                            <img style="width: 210px;height:198.64px;" src=@Url.Content("../Chicken/images/ThucDon/"+item.AnhDaiDien) class="img-fluid" alt="Image">
+                            <div class="mask-icon">
+
+                                <a class="cart" href="#">Thêm vào giỏ hàng</a>
+                            </div>
                         </div>
-                        <img style="width: 210px;height:198.64px;" src="../Chicken/images/TrangChu/TrangChu_MonAn1.jpeg" class="img-fluid" alt="Image">
-                        <div class="mask-icon">
-                            <ul>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                            </ul>
-                            <a class="cart" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="why-text">
-                        <h4>Lorem ipsum dolor sit amet</h4>
-                        <h5> $7.79</h5>
+                        <a asp-controller="ChiTietMonAn" asp-action="ChiTietSanPham" asp-route-mamon="@item.MaMonAn">
+                            <div class="why-text">
+                                <h4>@item.TenMonAn</h4>
+                                <h5>@item.DonGia</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
-            </div>
+            }
 
-            <div class="col-lg-3 col-md-6 special-grid top-featured">
-                <div class="products-single fix">
-                    <div class="box-img-hover">
-                        <div class="type-lb">
-                            <p class="new">New</p>
+
+
+        </div>
+        <div class="pagination">
+            <ul class="page-numbers" style="color: red;">
+                <li><a class="page-number">@Html.PagedListPager(Model,page=>Url.Action("TrangChu",new{page=page}))</a></li>
+            </ul>
+        </div>
+        <!-- End Products  -->
+        <!-- Start Blog  -->
+        <div class="latest-blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="title-all text-center">
+                            <h1>Bài viết gần đây nhất</h1>
+                            <p>Cung cấp cho khách hàng những thông tin về website</p>
                         </div>
-                        <img style="width: 210px;height:198.64px;" src="../Chicken/images/TrangChu/TrangChu_MonAn2.jpg" class="img-fluid" alt="Image">
-                        <div class="mask-icon">
-                            <ul>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                            </ul>
-                            <a class="cart" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="why-text">
-                        <h4>Lorem ipsum dolor sit amet</h4>
-                        <h5> $9.79</h5>
                     </div>
                 </div>
-            </div>
+                <div class="row">
+                    @foreach(var item in baiViet){
+                    <div class="col-md-6 col-lg-4 col-xl-4">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <img style="width: 350px;height: 296px;" class="img-fluid" src="@Url.Content("../Chicken/images/BaiViet/"+item.AnhDaiDien)" alt="" />
+                            </div>
+                            <div class="blog-content why-text" style="padding:0px">
+                                <a class="cart" asp-controller="BaiViet" asp-action="ChiTietBaiViet" asp-route-MaTinTuc="@item.MaTinTuc" style="color: black">
+                                    <div class="title-blog">
+                                        <h3>@item.TieuDe</h3>
+                                        <p>@item.NoiDung</p>
+                                    </div>
+                                </a>
 
-            <div class="col-lg-3 col-md-6 special-grid top-featured">
-                <div class="products-single fix">
-                    <div class="box-img-hover">
-                        <div class="type-lb">
-                            <p class="sale">Sale</p>
-                        </div>
-                        <img style="width: 210px;height:198.64px;" src="../Chicken/images/TrangChu/TrangChu_MonAn3.jpg" class="img-fluid" alt="Image">
-                        <div class="mask-icon">
-                            <ul>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                            </ul>
-                            <a class="cart" href="#">Add to Cart</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="why-text">
-                        <h4>Lorem ipsum dolor sit amet</h4>
-                        <h5> $10.79</h5>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 special-grid best-seller">
-                <div class="products-single fix">
-                    <div class="box-img-hover">
-                        <div class="type-lb">
-                            <p class="sale">Sale</p>
-                        </div>
-                        <img style="width: 210px;height:198.64px;" src="../Chicken/images/TrangChu/TrangChu_MonAn4.jpeg" class="img-fluid" alt="Image">
-                        <div class="mask-icon">
-                            <ul>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="View"><i class="fas fa-eye"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Compare"><i class="fas fa-sync-alt"></i></a></li>
-                                <li><a href="#" data-toggle="tooltip" data-placement="right" title="Add to Wishlist"><i class="far fa-heart"></i></a></li>
-                            </ul>
-                            <a class="cart" href="#">Add to Cart</a>
-                        </div>
-                    </div>
-                    <div class="why-text">
-                        <h4>Lorem ipsum dolor sit amet</h4>
-                        <h5> $15.79</h5>
-                    </div>
+                    }
                 </div>
             </div>
         </div>
-    </div>
-</div>
-<!-- End Products  -->
-<!-- Start Blog  -->
-<div class="latest-blog">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="title-all text-center">
-                    <h1>Bài viết gần đây nhất</h1>
-                    <p>Cung cấp cho khách hàng những thông tin về website</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6 col-lg-4 col-xl-4">
-                <div class="blog-box">
-                    <div class="blog-img">
-                        <img style="width: 350px;height: 296px;" class="img-fluid" src="../Chicken/images/TrangChu/TrangChu_BaiViet03.jpg" alt="" />
-                    </div>
-                    <div class="blog-content">
-                        <div class="title-blog">
-                            <h3>Bài viết 1</h3>
-                            <p>Nội dung bài viết 1</p>
-                        </div>
-                        <ul class="option-blog">
-                            <li><a href="#"><i class="far fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                            <li><a href="#"><i class="far fa-comments"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4">
-                <div class="blog-box">
-                    <div class="blog-img">
-                        <img style="width: 350px;height: 296px;" class="img-fluid" src="../Chicken/images/TrangChu/TrangChu_BaiViet01.jpg" alt="" />
-                    </div>
-                    <div class="blog-content">
-                        <div class="title-blog">
-                            <h3>Bài viết 2</h3>
-                            <p>Nội dung bài viết 2</p>
-                        </div>
-                        <ul class="option-blog">
-                            <li><a href="#"><i class="far fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                            <li><a href="#"><i class="far fa-comments"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 col-xl-4">
-                <div class="blog-box">
-                    <div class="blog-img">
-                        <img style="width: 350px;height: 296px;" class="img-fluid" src="../Chicken/images/TrangChu/TrangChu_BaiViet02.jpg" alt="" />
-                    </div>
-                    <div class="blog-content">
-                        <div class="title-blog">
-                            <h3>Bài viết 3</h3>
-                            <p>Nội dung bài viết 3</p>
-                        </div>
-                        <ul class="option-blog">
-                            <li><a href="#"><i class="far fa-heart"></i></a></li>
-                            <li><a href="#"><i class="fas fa-eye"></i></a></li>
-                            <li><a href="#"><i class="far fa-comments"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-    <!-- End Blog  -->
-    
+        <!-- End Blog  -->

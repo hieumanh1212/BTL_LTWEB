@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "94P8TzWxbCMpemdu/V43anMEDqr5h2pxqXwzpdZyNnE=",
+  "Hash": "2omEqAjDLcKT0z8sbJAdwdONpSDAyqE27/Vq8hd3xOI=",
   "Source": "BTL_ConGa",
   "BasePath": "_content/BTL_ConGa",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BTL_ConGa\\wwwroot",
       "Source": "BTL_ConGa",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BTL_ConGa.styles.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BTL_ConGa.styles.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "BTL_ConGa.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BTL_ConGa.styles.css"
+      "OriginalItemSpec": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BTL_ConGa.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL_ConGa.bundle.scp.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL_ConGa.bundle.scp.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "BTL_ConGa.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL_ConGa.bundle.scp.css"
+      "OriginalItemSpec": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BTL_ConGa.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\alls.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\alls.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/alls.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\alls.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\animates.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\animates.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/animates.css",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\animates.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\baguetteBoxs.min.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\baguetteBoxs.min.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/baguetteBoxs.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\baguetteBoxs.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootsnavs.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootsnavs.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/bootsnavs.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\bootsnavs.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstraps.min.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstraps.min.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/bootstraps.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\bootstraps.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstrap-selects.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\bootstrap-selects.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/bootstrap-selects.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\bootstrap-selects.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\carousel-tickers.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\carousel-tickers.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/carousel-tickers.css",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\carousel-tickers.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\code_animates.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\code_animates.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/code_animates.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\code_animates.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\custom1.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\custom1.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/custom1.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\custom1.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\jquery-uis.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\jquery-uis.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/jquery-uis.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\jquery-uis.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\owl.carousels.min.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\owl.carousels.min.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/owl.carousels.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\owl.carousels.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\responsives.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\responsives.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/responsives.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\responsives.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\styles1.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\styles1.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/styles1.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\styles1.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\superslidess.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\css\\superslidess.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/css/superslidess.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\css\\superslidess.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet1.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/BaiViet/baiviet1.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\BaiViet\\baiviet1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet2.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/BaiViet/baiviet2.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\BaiViet\\baiviet2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet3.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\BaiViet\\baiviet3.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/BaiViet/baiviet3.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\BaiViet\\baiviet3.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\DiaChi\\LienHe.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\DiaChi\\LienHe.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/DiaChi/LienHe.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\DiaChi\\LienHe.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\favicon.ico",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\favicon.ico",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/favicon.ico",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\About.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\About.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/About.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\About.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-1.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/img-1.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\img-1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-2.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/img-2.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\img-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-3.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\img-3.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/img-3.jpg",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\img-3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanAnToan.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanAnToan.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/ThanhPhanAnToan.png",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanAnToan.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanTuoiNgon.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanTuoiNgon.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/ThanhPhanTuoiNgon.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\ThanhPhanTuoiNgon.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\YeuThichGa.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\GioiThieu\\YeuThichGa.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/GioiThieu/YeuThichGa.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\GioiThieu\\YeuThichGa.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\imageTitle\\imgTitle.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\imageTitle\\imgTitle.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/imageTitle/imgTitle.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\imageTitle\\imgTitle.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\imageTitle\\Title.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\imageTitle\\Title.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/imageTitle/Title.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\imageTitle\\Title.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\ctkhuyenmai1.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\ctkhuyenmai1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/KhuyenMai/ctkhuyenmai1.jpg",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\KhuyenMai\\ctkhuyenmai1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai1.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/KhuyenMai/khuyenmai1.jpg",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai2.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/KhuyenMai/khuyenmai2.jpg",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai3.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai3.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/KhuyenMai/khuyenmai3.jpg",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai4.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai4.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/KhuyenMai/khuyenmai4.jpg",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\KhuyenMai\\khuyenmai4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\LienHe\\LienHe.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\LienHe\\LienHe.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/LienHe/LienHe.png",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\LienHe\\LienHe.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Logo\\logoChicken.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Logo\\logoChicken.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/Logo/logoChicken.png",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\Logo\\logoChicken.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\1.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\1.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/1.png",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\1.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\2.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\2.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/2.png",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\2.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\3.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\3.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/3.png",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\3.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\4.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\4.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/4.png",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\4.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\5.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\5.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/5.png",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\5.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\6.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\6.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/6.png",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\6.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\7.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\payment-icon\\7.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/payment-icon/7.png",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\payment-icon\\7.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken1.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken1.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/Slider/sliderChicken1.png",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\Slider\\sliderChicken1.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken2.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken2.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/Slider/sliderChicken2.png",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\Slider\\sliderChicken2.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken3.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\Slider\\sliderChicken3.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/Slider/sliderChicken3.png",
       "AssetKind": "All",
@@ -816,12 +816,12 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\Slider\\sliderChicken3.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoBurger.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\BanhXepTom.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ComBo/ComBoBurger.png",
+      "RelativePath": "Chicken/images/ThucDon/BanhXepTom.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -830,15 +830,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoBurger.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\BanhXepTom.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoMyY.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotCayChayLuoi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ComBo/ComBoMyY.png",
+      "RelativePath": "Chicken/images/ThucDon/CanhGaSotCayChayLuoi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -847,15 +847,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoMyY.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotCayChayLuoi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoSaladHat.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotCreamyOnion.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ComBo/ComBoSaladHat.png",
+      "RelativePath": "Chicken/images/ThucDon/CanhGaSotCreamyOnion.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -864,15 +864,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBo\\ComBoSaladHat.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotCreamyOnion.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DongGia\\BanhXepTom.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotNguVi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/DongGia/BanhXepTom.png",
+      "RelativePath": "Chicken/images/ThucDon/CanhGaSotNguVi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -881,15 +881,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DongGia\\BanhXepTom.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\CanhGaSotNguVi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DongGia\\MienCuonRongBien.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\CanhGaTruyenThong.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/DongGia/MienCuonRongBien.png",
+      "RelativePath": "Chicken/images/ThucDon/CanhGaTruyenThong.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -898,15 +898,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DongGia\\MienCuonRongBien.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\CanhGaTruyenThong.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DongGia\\PhoMaiQue.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\Coca.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/DongGia/PhoMaiQue.png",
+      "RelativePath": "Chicken/images/ThucDon/Coca.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -915,15 +915,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DongGia\\PhoMaiQue.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\Coca.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotCayChayLuoi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBoBurger.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/CanhGaSotCayChayLuoi.png",
+      "RelativePath": "Chicken/images/ThucDon/ComBoBurger.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -932,15 +932,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotCayChayLuoi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBoBurger.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotCreamyOnion.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBoMyY.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/CanhGaSotCreamyOnion.png",
+      "RelativePath": "Chicken/images/ThucDon/ComBoMyY.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -949,15 +949,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotCreamyOnion.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBoMyY.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComBoSaladHat.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/CanhGaSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/ComBoSaladHat.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -966,15 +966,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComBoSaladHat.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaTruyenThong.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComDuiGaSotNguVi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/CanhGaTruyenThong.png",
+      "RelativePath": "Chicken/images/ThucDon/ComDuiGaSotNguVi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -983,15 +983,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\CanhGaTruyenThong.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComDuiGaSotNguVi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\DuiGaSotCayChayLuoi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComGaKhongXuongSotNguVi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/DuiGaSotCayChayLuoi.png",
+      "RelativePath": "Chicken/images/ThucDon/ComGaKhongXuongSotNguVi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1000,15 +1000,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\DuiGaSotCayChayLuoi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComGaKhongXuongSotNguVi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\DuiGaSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ComMeGaSotNguVi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/DuiGaSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/ComMeGaSotNguVi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1017,15 +1017,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\DuiGaSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ComMeGaSotNguVi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotCayChayLuoi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\Dasani.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/GaNuaConSotCayChayLuoi.png",
+      "RelativePath": "Chicken/images/ThucDon/Dasani.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1034,15 +1034,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotCayChayLuoi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\Dasani.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotCreamyOnion.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/GaNuaConSotCreamyOnion.png",
+      "RelativePath": "Chicken/images/ThucDon/DuiGaCay1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1051,15 +1051,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotCreamyOnion.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/MonChinh/GaNuaConSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/DuiGaCay2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1068,15 +1068,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MonChinh\\GaNuaConSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Coca.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay3.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/NuocUong/Coca.png",
+      "RelativePath": "Chicken/images/ThucDon/DuiGaCay3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,15 +1085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Coca.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DuiGaCay3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Dasani.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DuiGaSotCayChayLuoi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/NuocUong/Dasani.png",
+      "RelativePath": "Chicken/images/ThucDon/DuiGaSotCayChayLuoi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,15 +1102,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Dasani.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DuiGaSotCayChayLuoi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Fanta.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\DuiGaSotNguVi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/NuocUong/Fanta.png",
+      "RelativePath": "Chicken/images/ThucDon/DuiGaSotNguVi.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,15 +1119,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Fanta.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\DuiGaSotNguVi.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Sprite.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\Fanta.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/NuocUong/Sprite.png",
+      "RelativePath": "Chicken/images/ThucDon/Fanta.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,15 +1136,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\NuocUong\\Sprite.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\Fanta.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComDuiGaSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaChienBo1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ThucAnTrua/ComDuiGaSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/GaChienBo1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1153,15 +1153,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComDuiGaSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaChienBo1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComGaKhongXuongSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaChienBo2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ThucAnTrua/ComGaKhongXuongSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/GaChienBo2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1170,15 +1170,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComGaKhongXuongSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaChienBo2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComMeGaSotNguVi.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaChienBo3.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
-      "RelativePath": "Chicken/images/ThucDon/ThucAnTrua/ComMeGaSotNguVi.png",
+      "RelativePath": "Chicken/images/ThucDon/GaChienBo3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1187,13 +1187,234 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\ThucAnTrua\\ComMeGaSotNguVi.png"
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaChienBo3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet01.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotCayChayLuoi.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaNuaConSotCayChayLuoi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotCayChayLuoi.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotCreamyOnion.png",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaNuaConSotCreamyOnion.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotCreamyOnion.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotNguVi.png",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaNuaConSotNguVi.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaNuaConSotNguVi.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu1.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRanChienXu1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRanChienXu2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRanChienXu3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRanChienXu3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi1.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRangMuoi1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRangMuoi2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/GaRangMuoi3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\GaRangMuoi3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\Khoai_Tay_Mui_Cau.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/Khoai_Tay_Mui_Cau.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\Khoai_Tay_Mui_Cau.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\MienCuonRongBien.png",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/MienCuonRongBien.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\MienCuonRongBien.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\PhoMaiQue.png",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/PhoMaiQue.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\PhoMaiQue.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\ThucDon\\Sprite.png",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "Chicken/images/ThucDon/Sprite.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Chicken\\images\\ThucDon\\Sprite.png"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet01.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_BaiViet01.jpg",
       "AssetKind": "All",
@@ -1207,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet01.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet02.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet02.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_BaiViet02.jpg",
       "AssetKind": "All",
@@ -1224,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet02.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet03.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet03.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_BaiViet03.jpg",
       "AssetKind": "All",
@@ -1241,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_BaiViet03.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn1.jpeg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn1.jpeg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn1.jpeg",
       "AssetKind": "All",
@@ -1258,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn1.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn2.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn2.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn2.jpg",
       "AssetKind": "All",
@@ -1275,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn3.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn3.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn3.jpg",
       "AssetKind": "All",
@@ -1292,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn4.jpeg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn4.jpeg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn4.jpeg",
       "AssetKind": "All",
@@ -1309,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn4.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn5.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn5.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn5.jpg",
       "AssetKind": "All",
@@ -1326,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn6.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn6.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn6.jpg",
       "AssetKind": "All",
@@ -1343,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn7.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn7.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn7.jpg",
       "AssetKind": "All",
@@ -1360,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn8.jpg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn8.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn8.jpg",
       "AssetKind": "All",
@@ -1377,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn9.jpeg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn9.jpeg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_MonAn9.jpeg",
       "AssetKind": "All",
@@ -1394,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_MonAn9.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken1.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken1.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_sliderChicken1.png",
       "AssetKind": "All",
@@ -1411,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken1.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken2.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken2.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_sliderChicken2.png",
       "AssetKind": "All",
@@ -1428,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken2.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken3.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken3.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_sliderChicken3.png",
       "AssetKind": "All",
@@ -1445,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_sliderChicken3.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanAnToan.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanAnToan.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_ThanhPhanAnToan.png",
       "AssetKind": "All",
@@ -1462,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanAnToan.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanTuoiNgon.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanTuoiNgon.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_ThanhPhanTuoiNgon.png",
       "AssetKind": "All",
@@ -1479,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_ThanhPhanTuoiNgon.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_YeuThichGa.png",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\images\\TrangChu\\TrangChu_YeuThichGa.png",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/images/TrangChu/TrangChu_YeuThichGa.png",
       "AssetKind": "All",
@@ -1496,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\images\\TrangChu\\TrangChu_YeuThichGa.png"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\baguetteBox.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\baguetteBox.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/baguetteBox.min.js",
       "AssetKind": "All",
@@ -1513,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\baguetteBox.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootsnav.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootsnav.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/bootsnav.js",
       "AssetKind": "All",
@@ -1530,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\bootsnav.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1547,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap-select.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\bootstrap-select.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/bootstrap-select.js",
       "AssetKind": "All",
@@ -1564,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\bootstrap-select.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\contact-form-script.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\contact-form-script.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/contact-form-script.js",
       "AssetKind": "All",
@@ -1581,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\contact-form-script.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\custom.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\custom.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/custom.js",
       "AssetKind": "All",
@@ -1598,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\custom.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\form-validator.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\form-validator.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/form-validator.min.js",
       "AssetKind": "All",
@@ -1615,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\form-validator.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\images-loded.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\images-loded.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/images-loded.min.js",
       "AssetKind": "All",
@@ -1632,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\images-loded.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\inewsticker.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\inewsticker.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/inewsticker.js",
       "AssetKind": "All",
@@ -1649,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\inewsticker.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\isotope.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\isotope.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/isotope.min.js",
       "AssetKind": "All",
@@ -1666,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\isotope.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.nicescroll.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.nicescroll.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/jquery.nicescroll.min.js",
       "AssetKind": "All",
@@ -1683,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\jquery.nicescroll.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.superslides.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery.superslides.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/jquery.superslides.min.js",
       "AssetKind": "All",
@@ -1700,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\jquery.superslides.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-3.2.1.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-3.2.1.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/jquery-3.2.1.min.js",
       "AssetKind": "All",
@@ -1717,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\jquery-3.2.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-ui.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\jquery-ui.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/jquery-ui.js",
       "AssetKind": "All",
@@ -1734,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\jquery-ui.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\owl.carousel.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\owl.carousel.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/owl.carousel.min.js",
       "AssetKind": "All",
@@ -1751,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\popper.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\js\\popper.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/js/popper.min.js",
       "AssetKind": "All",
@@ -1768,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\php\\form-process.php",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\php\\form-process.php",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/php/form-process.php",
       "AssetKind": "All",
@@ -1785,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\php\\form-process.php"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.eot",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.eot",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-brands-400.eot",
       "AssetKind": "All",
@@ -1802,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-brands-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.svg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.svg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-brands-400.svg",
       "AssetKind": "All",
@@ -1819,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-brands-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.ttf",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.ttf",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-brands-400.ttf",
       "AssetKind": "All",
@@ -1836,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-brands-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-brands-400.woff",
       "AssetKind": "All",
@@ -1853,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-brands-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff2",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-brands-400.woff2",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-brands-400.woff2",
       "AssetKind": "All",
@@ -1870,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-brands-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.eot",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.eot",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-regular-400.eot",
       "AssetKind": "All",
@@ -1887,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-regular-400.eot"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.svg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.svg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-regular-400.svg",
       "AssetKind": "All",
@@ -1904,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-regular-400.svg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.ttf",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.ttf",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-regular-400.ttf",
       "AssetKind": "All",
@@ -1921,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-regular-400.ttf"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-regular-400.woff",
       "AssetKind": "All",
@@ -1938,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-regular-400.woff"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff2",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-regular-400.woff2",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-regular-400.woff2",
       "AssetKind": "All",
@@ -1955,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-regular-400.woff2"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.eot",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.eot",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-solid-900.eot",
       "AssetKind": "All",
@@ -1972,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-solid-900.eot"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.svg",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.svg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-solid-900.svg",
       "AssetKind": "All",
@@ -1989,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-solid-900.svg"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.ttf",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.ttf",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-solid-900.ttf",
       "AssetKind": "All",
@@ -2006,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-solid-900.ttf"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-solid-900.woff",
       "AssetKind": "All",
@@ -2023,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-solid-900.woff"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff2",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\Chicken\\webfonts\\fa-solid-900.woff2",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "Chicken/webfonts/fa-solid-900.woff2",
       "AssetKind": "All",
@@ -2040,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Chicken\\webfonts\\fa-solid-900.woff2"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\css\\site.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\css\\site.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -2057,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\favicon.ico",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\favicon.ico",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -2074,10 +2295,231 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\js\\site.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\DuiGaCay1.jpg",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/DuiGaCay1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\DuiGaCay1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\DuiGaCay2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/DuiGaCay2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\DuiGaCay2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\DuiGaCay3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/DuiGaCay3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\DuiGaCay3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaChienBo1.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaChienBo1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaChienBo1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaChienBo2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaChienBo2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaChienBo2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaChienBo3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaChienBo3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaChienBo3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRanChienXu1.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRanChienXu1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRanChienXu1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRanChienXu2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRanChienXu2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRanChienXu2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRanChienXu3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRanChienXu3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRanChienXu3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRangMuoi1.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRangMuoi1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRangMuoi1.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRangMuoi2.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRangMuoi2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRangMuoi2.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\GaRangMuoi3.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/GaRangMuoi3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\GaRangMuoi3.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\images\\Khoai_Tay_Mui_Cau.jpg",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "BasePath": "_content/BTL_ConGa",
+      "RelativePath": "images/Khoai_Tay_Mui_Cau.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Khoai_Tay_Mui_Cau.jpg"
+    },
+    {
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\js\\site.js",
+      "SourceId": "BTL_ConGa",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -2091,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -2108,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -2125,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -2142,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -2159,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css",
       "AssetKind": "All",
@@ -2176,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.css.map",
       "AssetKind": "All",
@@ -2193,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css",
       "AssetKind": "All",
@@ -2210,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-theme.min.css.map",
       "AssetKind": "All",
@@ -2227,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2244,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2261,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2278,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2295,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2312,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2329,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2346,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2363,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2380,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2397,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2414,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2431,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2448,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2465,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BTL_ConGa",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Admin\\Downloads\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
+      "ContentRoot": "E:\\Tài liệu kỳ 6\\Lập trình Web\\BTL_ConGa (1)\\BTL_ConGa\\wwwroot\\",
       "BasePath": "_content/BTL_ConGa",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

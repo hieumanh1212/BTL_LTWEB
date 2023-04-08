@@ -19,79 +19,22 @@ namespace BTL_ConGa.Controllers
         }
 
 
-        [HttpGet]
-        public List<TaiKhoan> GetCustomerLists()
-        {
-            return db.TaiKhoans.ToList();
-        }
-
-        [HttpGet("{maloai}")]
-        public TaiKhoan GetBy(string maLoai)
-        {
-            return db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == maLoai);
-        }
-
-        //[HttpPost]
-        //public bool DangKy(string taikhoan1, string matkhau, string maloaitaikhoan, string idkhachhang, 
-        //    string tenkhachhang, string ngaysinh, string sodienthoai, string diachi, string email, 
-        //    string gioitinh, string taikhoan2)
-        //{
-        //    try
-        //    {
-        //        var checkUsernameExsit = db.TaiKhoans.FirstOrDefault(x=>x.TaiKhoan1==taikhoan1);
-        //        //Tai khoan da ton tai
-        //        if(checkUsernameExsit != null)
-        //        {
-        //            return false;
-        //        }
-        //        else
-        //        {
-        //            TaiKhoan taikhoan = new TaiKhoan();
-        //            taikhoan.TaiKhoan1 = taikhoan1;
-        //            taikhoan.MatKhau = matkhau;
-        //            taikhoan.MaLoaiTaiKhoan = maloaitaikhoan;
-
-        //            db.TaiKhoans.AddAsync(taikhoan);
-        //            db.SaveChanges();
-
-        //            return true;
-        //        }
-
-        //    }
-        //    catch
-        //    {
-        //        throw new Exception("Đăng kí không thành công"); 
-        //    }
-        //}
-
         [HttpPost]
         [Route("DangKy")]
-        public async Task<IActionResult> DangKy([FromBody] TaiKhoanIn4Model taikhoan)
+        public async Task<IActionResult> DangKy([FromBody] TaiKhoanIn4Model taiKhoan)
         {
             try
             {
-                var checkUsernameExsit = db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == taikhoan.Username);
-                //Tai khoan da ton tai
-                if (checkUsernameExsit != null)
-                {
+                var itemCheckExsits = db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == taiKhoan.Username);
+                if (itemCheckExsits != null)
                     return BadRequest();
-                }
-                else
-                {
-                    try
-                    {
-                        await _userInforService.Register(taikhoan);
-                        return Ok();
-                    }
-                    catch
-                    {
-                        throw new Exception("hhh");
-                    }
-                }
-
+                //throw new Exception("Đăng kí không thành công");
+                await _userInforService.Register(taiKhoan);
+                return Ok();
             }
             catch
             {
+                return BadRequest();
                 throw new Exception("Đăng kí không thành công");
             }
         }

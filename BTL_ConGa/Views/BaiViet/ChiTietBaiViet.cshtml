@@ -1,4 +1,4 @@
-﻿
+﻿@model BTL_ConGa.Models.TinTuc
 <!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
@@ -32,18 +32,13 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="banner-frame">
-                    <img class="img-fluid" style="max-width: 100%;height: 600px;" src="../Chicken/images/BaiViet/baiviet2.jpg" alt="" />
+                    <img class="img-fluid" style="max-width: 100%;height: 600px;" src="@Url.Content("../Chicken/images/BaiViet/"+Model.AnhDaiDien)" alt="" />
                 </div>
             </div>
             <div class="col-lg-6">
-                <h2 class="noo-sh-title-top">QUÁN GÀ CHUẨN GU HÀN</h2>
+                <h2 class="noo-sh-title-top">@Model.TieuDe</h2>
                 <p>
-                    Da giòn – đậm vị là tiêu chí hàng đầu mà Norang Tongdak muốn tạo ra cho món ăn.
-                    Với món gà rán da mỏng, giòn tan, không béo - gia đình, đặc biệt là trẻ em có thể thưởng thức thoải mái mà không để sự lo lắng về sức khỏe ảnh hưởng đến bữa ăn của mình.
-                    "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                    sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
-                    Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur.
+                    @Model.NoiDung
                 </p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a class="btn hvr-hover" href="#">Đọc Thêm</a>

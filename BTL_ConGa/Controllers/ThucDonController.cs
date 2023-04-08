@@ -1,28 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BTL_ConGa.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using X.PagedList;
 
 namespace BTL_ConGa.Controllers
 {
     public class ThucDonController : Controller
     {
-        public IActionResult ComBo()
+        BtlWebContext db = new BtlWebContext();
+        
+        public IActionResult MonAnTheoDanhMuc(String MaDanhMuc, int? page)
         {
-            return View("Views/ThucDon/ComBo.cshtml");
-        }
-        public IActionResult ThucAnTrua()
-        {
-            return View("Views/ThucDon/ThucAnTrua.cshtml");
-        }
-        public IActionResult NuocUong()
-        {
-            return View("Views/ThucDon/NuocUong.cshtml");
-        }
-        public IActionResult MonChinh()
-        {
-            return View("Views/ThucDon/MonChinh.cshtml");
-        }
-        public IActionResult DongGia()
-        {
-            return View("Views/ThucDon/DongGia.cshtml");
+            int pageSize = 3;
+            int pageNumber = page == null || page < 0 ? 1 : page.Value;
+            List<MonAn> lstMonan = db.MonAns.AsNoTracking().Where(x => x.MaDanhMuc == MaDanhMuc).OrderBy(x => x.TenMonAn).ToList();
+            PagedList<MonAn> lst = new PagedList<MonAn>(lstMonan, pageNumber, pageSize);
+            ViewBag.MaDanhMuc = MaDanhMuc;
+            return View(lst);
         }
     }
 }

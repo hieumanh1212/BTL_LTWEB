@@ -1,10 +1,41 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BTL_ConGa.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace BTL_ConGa.Controllers
 {
     public class ChiTietMonAnController : Controller
     {
-        // com bo
+        BtlWebContext db = new BtlWebContext();
+        public IActionResult ChiTietSanPham(String MaMon)
+        {
+            /*var sanPham = db.MonAns.SingleOrDefault(x => x.MaMonAn == MaMon);
+            var ctsanpham = db.Anhs.Where(x => x.MaMonAn == MaMon).ToList();*/
+            var sanPham = (from a in db.MonAns
+                           join b in db.DanhMucs on a.MaDanhMuc equals b.MaDanhMuc
+                           join c in db.Anhs on a.MaMonAn equals c.MaMonAn
+                           where a.MaMonAn == MaMon
+                           select new
+                           {
+                               a.MaMonAn,
+                               a.TenMonAn,
+                               a.DonGia,
+                               a.MoTa,
+                               a.TrangThai,
+                               a.AnhDaiDien,
+                               a.SoLuong,
+                               b.MaDanhMuc,
+                               b.TenDanhMuc,
+                               c.MaAnh,
+                               c.HinhAnh,
+                           }).ToList();
+            var monAn = (from a in db.MonAns
+                         where a.MaMonAn == MaMon
+                         select a).ToList();
+            ViewBag.monAn = monAn;
+            ViewBag.sanPham = sanPham;
+            return View(sanPham);
+        }
+        /*// com bo
         public IActionResult ComBoBurger()
         {
             return View("Views/ChiTietMonAn/ComBo/ComBoBurger.cshtml");
@@ -49,6 +80,6 @@ namespace BTL_ConGa.Controllers
         public IActionResult CanhGaSotCayChayLuoi()
         {
             return View("Views/ChiTietMonAn/MonChinh/CanhGaSotCayChayLuoi.cshtml");
-        }
+        }*/
     }
 }
