@@ -47,27 +47,55 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach(var item in Model)
-                        {
-                            @item.TenMonAn
-                        }
-
                         @for (int i = 0; i < ViewBag.SoLuongHDB; i++)
                         {
                             <tr>
-                                <td><a id="ShowModal" class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal">Xem chi tiết</a></td>
                                 <td>
-                                    <img src="@Url.Content("~/chicken/images/ThucDon/" + Model[0].AnhDaiDien)" width="48" height="48" style="border-radius: 5px" />
-                                    <br />
-                                    <img src="@Url.Content("~/chicken/images/ThucDon/" + Model[1].AnhDaiDien)" width="48" height="48" style="border-radius: 5px; padding-top: 5px;" />
+                                    <a id="ShowModal" class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal"
+                                   onclick="HienThiModal('@ViewBag.DanhSachHDB[i].NgayTao.ToString("dd-MM-yyyy")', @ViewBag.DanhSachHDB[i].TongTien, i)">Xem chi tiết</a>
+
                                 </td>
                                 <td>
-                                    <a href="../ChiTietMonAn/CanhGaSotNguVi">@Model[0].TenMonAn</a> <br />
-                                    <br /> <a href="../ChiTietMonAn/CanhGaSotNguVi">@Model[1].TenMonAn</a>
+                                    @{
+                                        int count = 0;
+                                    }
+                                    @for (int j = 0; j < Model.Count; j++)
+                                    {
+                                        @if (count++ == 2)
+                                        {
+                                            continue;
+                                        }
+                                        @if (Model[j].MaHoaDon == ViewBag.DanhSachHDB[i].MaHoaDon)
+                                        {
+                                            <img src="@Url.Content("~/chicken/images/ThucDon/" + @Model[j].AnhDaiDien)" width="48" height="48" style="border-radius: 5px" />
+                                            <br />
+                                        }
+
+                                    }
+
                                 </td>
-                                <td>@Model[0].NgayTao.ToString("dd-MM-yyyy")</td>
-                                <td>@Model[0].TongTien VND</td>
+                                <td>
+                                    @{
+                                        int count1 = 0;
+                                    }
+                                    @for (int j = 0; j < Model.Count; j++)
+                                    {
+                                        @if (count1++ == 2)
+                                        {
+                                            continue;
+                                        }
+                                        @if (Model[j].MaHoaDon == ViewBag.DanhSachHDB[i].MaHoaDon)
+                                        {
+                                            <a href="../ChiTietMonAn/CanhGaSotNguVi">@Model[j].TenMonAn</a> <br />
+                                        }
+
+                                    }
+                                </td>
+                                <td>@ViewBag.DanhSachHDB[i].NgayTao.ToString("dd-MM-yyyy")</td>
+                                <td>@ViewBag.DanhSachHDB[i].TongTien VND</td>
                             </tr>
+
+
                         }
                     </tbody>
                 </table>
@@ -89,8 +117,8 @@
                         <div class="card card-4">
                             <div class="card-header bg-white">
                                 <div class="media flex-sm-row flex-column-reverse justify-content-between  ">
-                                    <div class="col my-auto"> <h4 class="mb-0">Lịch sử hóa đơn: <span id="IDMaHoaDon" class="change-color"> </span> !</h4> </div>
-                                    <div class="col-auto text-center  my-auto pl-0 pt-sm-4"> <img class="img-fluid my-auto align-items-center mb-0 pt-3" src="~/chicken/images/logo/logochicken.png" width="115" height="115"> <p class="mb-4 pt-0 Glasses">Cánh gà siêu ngon nhóm 04</p>  </div>
+                                    <div class="col my-auto"> <h4 class="mb-0">Lịch sử hóa đơn: <span id="IDMaHoaDon" class="change-color"> </span></h4> </div>
+                                    <div class="col-auto text-center  my-auto pl-0 pt-sm-4"> <img class="img-fluid my-auto align-items-center mb-0 pt-3" src="~/chicken/images/logo/logochicken.png" width="115" height="115"> <p class="mb-4 pt-0 Glasses">Gà siêu ngon nhóm 04</p>  </div>
                                 </div>
                             </div>
                             <div class="card-body">
@@ -98,6 +126,8 @@
                                     <div class="col-auto"> <h3 class="color-1 mb-0 change-color">Biên lai</h3> </div>
 
                                 </div>
+                                @*Một cái*@
+                                
                                 <div class="row">
                                     <div class="col">
                                         <div class="card card-2">
@@ -109,14 +139,14 @@
                                                         <div class="row  my-auto flex-column flex-md-row">
                                                             <div class="col-lg-4 col-md-4 col-sm-12">
                                                                 <a href="../ChiTietMonAn/CanhGaSotNguVi">
-                                                                    <h4 class="mb-0"> Cánh gà sốt ngũ vị</h4>
+                                                                    <h4 id="TenMonAn" class="mb-0"></h4>
                                                                 </a>
                                                             </div>
                                                             <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <h4 class="mb-0">Số lượng : 08</h4>
+                                                                <h4 id="SoLuongMonAn" class="mb-0"></h4>
                                                             </div>
                                                             <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <h4 class="mb-0">3.600.000 VND</h4>
+                                                                <h4 id="GiaTienMonAn" class="mb-0"></h4>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -126,33 +156,12 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row mt-4">
-                                    <div class="col">
-                                        <div class="card card-2">
-                                            <div class="card-body">
-                                                <div class="media">
-                                                    <div class="sq align-self-center "> <img class="img-fluid  my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="../Chicken/images/ThucDon/ComBo/CanhGaSotNguVi.png" width="135" height="135" /> </div>
-                                                    <div class="media-body my-auto text-right">
-                                                        <div class="row  my-auto flex-column flex-md-row">
-                                                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <a href="../ChiTietMonAn/CanhGaSotNguVi">
-                                                                    <h4 class="mb-0"> Cánh gà sốt ngũ vị</h4>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col-lg-4 col-md-4 col-sm-12 ">
-                                                                <h4 class="mb-0">Số lượng : 07</h4>
-                                                            </div>
-                                                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <h4 class="mb-0">1.235.000 VND</h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
 
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
+
+
+
+
                                 <div class="row mt-4">
                                     <div class="col">
                                         <div class="row justify-content-between">
@@ -161,14 +170,16 @@
                                             <div class="flex-sm-col col-auto"> <p class="mb-1">4.835.000 VND</p> </div>
                                         </div>
                                         <div class="row justify-content-between">
-                                            <div class="flex-sm-col text-right col"><p class="mb-1"> <b>Discount</b></p> </div>
-                                            <div class="flex-sm-col col-auto"><p class="mb-1">&#8377;150</p></div>
+                                            <div class="flex-sm-col text-right col"><p class="mb-1"> <b>Giảm giá</b></p> </div>
+                                            <div class="flex-sm-col col-auto"><p class="mb-1">100000</p></div>
                                         </div>
 
                                     </div>
                                 </div>
                                 <div class="row invoice ">
-                                    <div class="col"><p class="mb-1"> Số hóa đơn : 788152</p><p class="mb-1">Ngày mua : 22 Dec,2022</p><p class="mb-1">Mã voucher:18KU-62IIK</p></div>
+                                    <div class="col"><p class="mb-1"> Số hóa đơn : 788152</p>
+                                        <div id="NgayTao" class="mb-1"></div>
+                                        <p class="mb-1">Mã voucher:18KU-62IIK</p></div>
                                 </div>
                             </div>
                             <div class="card-footer">
@@ -176,7 +187,7 @@
                                     <div class="row justify-content-between ">
                                         <div class="col-sm-auto col-auto my-auto"><img class="img-fluid my-auto align-self-center " src="../chicken/images/logo/logochicken.png" width="115" height="115"></div>
                                         <div class="col-auto my-auto "><h2 class="mb-0 font-weight-bold">Tổng tiền phải trả</h2></div>
-                                        <div class="col-auto my-auto ml-auto"><h1 class="display-3 ">5.528.000 VND</h1></div>
+                                        <div class="col-auto my-auto ml-auto"><h1 id="TongTien" class="display-3 "></h1></div>
                                     </div>
                                     <div class="row mb-3 mt-3 mt-md-0">
                                         <div class="col-auto border-line"> <small class="text-white">PAN:AA02hDW7E</small></div>
@@ -197,13 +208,19 @@
 <br />
 <br />
 
-<script>
-    const ShowModal = document.getElementById("ShowModal");
-    const ShowMaHoaDon = document.getElementById("IDMaHoaDon");
+<script>  
+    function HienThiModal(ngaytao, tien, index) {
+        const ShowNgayTao = document.getElementById("NgayTao");
+        const ShowTongTien = document.getElementById("TongTien");
+        ShowNgayTao.innerHTML = "Ngày mua: " + ngaytao;
+        ShowTongTien.innerHTML = tien;
 
-    ShowModal.addEventListener("click", function () {
-        const dynamicContent = @Model[0].MaHoaDon;
-        ShowMaHoaDon.innerHTML = dynamicContent;
-    });
+        const ShowTenMonAn = document.getElementById("TenMonAn");
+        const ShowSoLuongMonAn = document.getElementById("SoLuongMonAn");
+        const ShowGiaTienMonAn = document.getElementById("GiaTienMonAn");
+
+
+    }
+
 
 </script>

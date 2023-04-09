@@ -38,6 +38,7 @@ namespace BTL_ConGa.Controllers
                        join g in db.HoaDonBans
                        on d.MaHoaDon equals g.MaHoaDon
                        where g.IdkhachHang == HttpContext.Session.GetString("IDCustomer")
+                       orderby g.MaHoaDon
                        select new LichSuModel
                        {
                            MaHoaDon = g.MaHoaDon, 
