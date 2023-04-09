@@ -1,4 +1,5 @@
 ﻿using BTL_ConGa.Models;
+using BTL_ConGa.Models.LichSu;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Globalization;
@@ -26,11 +27,36 @@ namespace BTL_ConGa.Controllers
         }
         public IActionResult DoiMatKhau()
         {
+            ViewBag.Password = HttpContext.Session.GetString("Password");
             return View("Views/TaiKhoan/DoiMatKhau.cshtml");
         }
         public IActionResult LichSuDatHang()
         {
-            return View("Views/TaiKhoan/LichSuDatHang.cshtml");
+            var hdb = (from p in db.MonAns
+                       join d in db.ChiTietHoaDonBans
+                       on p.MaMonAn equals d.MaMonAn
+                       join g in db.HoaDonBans
+                       on d.MaHoaDon equals g.MaHoaDon
+                       where g.IdkhachHang == HttpContext.Session.GetString("IDCustomer")
+                       select new LichSuModel
+                       {
+                           MaHoaDon = g.MaHoaDon, 
+                           NgayTao = g.NgayTao,
+                           TongTien = g.TongTien,
+                           IdkhachHang = g.IdkhachHang,
+                           SoLuong = d.SoLuong,
+                           MaMonAn = p.MaMonAn,
+                           TenMonAn = p.TenMonAn,
+                           DonGia = p.DonGia,
+                           AnhDaiDien = p.AnhDaiDien
+                       }).ToList();
+
+            //Liệt kê các hóa đơn của khách hàng X
+            var soluonghdb = db.HoaDonBans.Where(x => x.IdkhachHang == HttpContext.Session.GetString("IDCustomer")).ToList();
+            ViewBag.DanhSachHDB = soluonghdb;
+            ViewBag.SoLuongHDB = soluonghdb.Count;
+            //var chitiethdb = db.ChiTietHoaDonBans.Where(x=>x.MaHoaDon == )
+            return View(hdb);
         }
 
         [HttpGet]
@@ -56,6 +82,7 @@ namespace BTL_ConGa.Controllers
                 if (u != null)
                 {
                     HttpContext.Session.SetString("UserName", u.TaiKhoan1.ToString());
+                    HttpContext.Session.SetString("Password", u.MatKhau.ToString());
                     HttpContext.Session.SetString("IDCustomer", k.IdkhachHang.ToString());
                     HttpContext.Session.SetString("Name", k.TenKhachHang.ToString());
                     HttpContext.Session.SetString("Phone", k.SoDienThoai.ToString());

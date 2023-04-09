@@ -1,4 +1,5 @@
-﻿
+﻿@model List<BTL_ConGa.Models.LichSu.LichSuModel>
+
 <!-- jQuery library -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
@@ -6,31 +7,31 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <br />
 <!-- Start Top Search -->
-    <div class="top-search">
-        <div class="container">
-            <div class="input-group">
-                <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                <input type="text" class="form-control" placeholder="Search">
-                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+<div class="top-search">
+    <div class="container">
+        <div class="input-group">
+            <span class="input-group-addon"><i class="fa fa-search"></i></span>
+            <input type="text" class="form-control" placeholder="Search">
+            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+        </div>
+    </div>
+</div>
+<!-- End Top Search -->
+<!-- Start All Title Box -->
+<div class="all-title-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Đơn đặt hàng của bạn</h2>
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Tài khoản của tôi</a></li>
+                    <li class="breadcrumb-item active">Đơn đặt hàng của bạn</li>
+                </ul>
             </div>
         </div>
     </div>
-    <!-- End Top Search -->
-    <!-- Start All Title Box -->
-    <div class="all-title-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>Đơn đặt hàng của bạn</h2>
-                    <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Tài khoản của tôi</a></li>
-                        <li class="breadcrumb-item active">Đơn đặt hàng của bạn</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End All Title Box -->
+</div>
+<!-- End All Title Box -->
 <div class="container" style="margin-top: 80px">
     <div class="bw">
         <div class="dh">
@@ -39,42 +40,35 @@
                     <thead>
                         <tr>
                             <th></th>
-                            <th>Anh món ăn</th>
+                            <th>Ảnh món ăn</th>
                             <th>Tên món ăn</th>
                             <th>Ngày mua</th>
                             <th>Tổng hóa đơn</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td><a class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal">Xem chi tiết</a></td>
-                            <td>
-                                <img src="~/chicken/images/Trangchu/TrangChu_MonAn5.jpg" width="48" height="48" style="border-radius: 5px" />
-                                <br />
-                                <img src="~/chicken/images/Trangchu/TrangChu_MonAn6.jpg" width="48" height="48" style="border-radius: 5px; padding-top: 5px;" />
-                            </td>
-                            <td><a href="../ChiTietMonAn/CanhGaSotNguVi">Món ăn siêu ngon</a> <br /><br /> <a href="../ChiTietMonAn/CanhGaSotNguVi" >Món ăn siêu ngon</a></td>
-                            <td>05/09/2022</td>
-                            <td>300.000.000 VND</td>
-                        </tr>
-                        <tr>
-                            <td><a class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal">Xem chi tiết</a></td>
-                            <td><img src="~/chicken/images/Trangchu/TrangChu_MonAn3.jpg" width="48" height="48" style="border-radius: 5px" /><br />
-                                <img src="~/chicken/images/Trangchu/TrangChu_MonAn1.jpeg" width="48" height="48" style="border-radius: 5px; padding-top: 5px;" /></td>
-                            <td><a href="../ChiTietMonAn/CanhGaSotNguVi">Món ăn siêu ngon</a> <br /> <br /> <a href="../ChiTietMonAn/CanhGaSotNguVi" style="padding-top: 20px;">Món ăn siêu ngon</a></td>
-                            <td>07/09/2022</td>
-                            <td>200.000.000 VND</td>
-                        </tr>
-                        <tr>
-                            <td><a class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal">Xem chi tiết</a></td>
-                            <td>
-                                <img src="~/chicken/images/Trangchu/TrangChu_MonAn3.jpg" width="48" height="48" style="border-radius: 5px" /><br />
-                                <img src="~/chicken/images/Trangchu/TrangChu_MonAn1.jpeg" width="48" height="48" style="border-radius: 5px; padding-top: 5px;" />
-                            </td>
-                            <td><a href="../ChiTietMonAn/CanhGaSotNguVi">Món ăn siêu ngon</a> <br /> <br /> <a href="../ChiTietMonAn/CanhGaSotNguVi" style="padding-top: 20px;">Món ăn siêu ngon</a></td>
-                            <td>06/09/2022</td>
-                            <td>100.000.000 VND</td>
-                        </tr>
+                        @foreach(var item in Model)
+                        {
+                            @item.TenMonAn
+                        }
+
+                        @for (int i = 0; i < ViewBag.SoLuongHDB; i++)
+                        {
+                            <tr>
+                                <td><a id="ShowModal" class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal">Xem chi tiết</a></td>
+                                <td>
+                                    <img src="@Url.Content("~/chicken/images/ThucDon/" + Model[0].AnhDaiDien)" width="48" height="48" style="border-radius: 5px" />
+                                    <br />
+                                    <img src="@Url.Content("~/chicken/images/ThucDon/" + Model[1].AnhDaiDien)" width="48" height="48" style="border-radius: 5px; padding-top: 5px;" />
+                                </td>
+                                <td>
+                                    <a href="../ChiTietMonAn/CanhGaSotNguVi">@Model[0].TenMonAn</a> <br />
+                                    <br /> <a href="../ChiTietMonAn/CanhGaSotNguVi">@Model[1].TenMonAn</a>
+                                </td>
+                                <td>@Model[0].NgayTao.ToString("dd-MM-yyyy")</td>
+                                <td>@Model[0].TongTien VND</td>
+                            </tr>
+                        }
                     </tbody>
                 </table>
             </div>
@@ -95,14 +89,14 @@
                         <div class="card card-4">
                             <div class="card-header bg-white">
                                 <div class="media flex-sm-row flex-column-reverse justify-content-between  ">
-                                    <div class="col my-auto"> <h4 class="mb-0">Lịch sử hóa đơn: <span class="change-color">Hóa đơn 1</span> !</h4> </div>
+                                    <div class="col my-auto"> <h4 class="mb-0">Lịch sử hóa đơn: <span id="IDMaHoaDon" class="change-color"> </span> !</h4> </div>
                                     <div class="col-auto text-center  my-auto pl-0 pt-sm-4"> <img class="img-fluid my-auto align-items-center mb-0 pt-3" src="~/chicken/images/logo/logochicken.png" width="115" height="115"> <p class="mb-4 pt-0 Glasses">Cánh gà siêu ngon nhóm 04</p>  </div>
                                 </div>
                             </div>
                             <div class="card-body">
                                 <div class="row justify-content-between mb-3">
                                     <div class="col-auto"> <h3 class="color-1 mb-0 change-color">Biên lai</h3> </div>
-                                    
+
                                 </div>
                                 <div class="row">
                                     <div class="col">
@@ -170,7 +164,7 @@
                                             <div class="flex-sm-col text-right col"><p class="mb-1"> <b>Discount</b></p> </div>
                                             <div class="flex-sm-col col-auto"><p class="mb-1">&#8377;150</p></div>
                                         </div>
-                                        
+
                                     </div>
                                 </div>
                                 <div class="row invoice ">
@@ -202,3 +196,14 @@
 </div>
 <br />
 <br />
+
+<script>
+    const ShowModal = document.getElementById("ShowModal");
+    const ShowMaHoaDon = document.getElementById("IDMaHoaDon");
+
+    ShowModal.addEventListener("click", function () {
+        const dynamicContent = @Model[0].MaHoaDon;
+        ShowMaHoaDon.innerHTML = dynamicContent;
+    });
+
+</script>

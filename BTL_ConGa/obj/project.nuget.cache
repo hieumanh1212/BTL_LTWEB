@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bkv9BIZAa3l2tpD5JeJ9dm1CE+i9uNz1ARt4RsKYpnOZ5j4Kka2tvm0ErMRh2e9usgz8ydZZ7HAA3zH4/Zbi/g==",
+  "dgSpecHash": "ehVTqvNXRg4wEt2UNhm1p7rlaANjCG4bk0Z7B+whOZ9HzqqGkWkcLjype2b5yabS+O6D/xJ3yRWLwLtqo6bTPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\Downloads\\BTL_GANFINAL\\BTL_ConGa\\BTL_ConGa.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Downloads\\BTL_LTWEB-main\\BTL_LTWEB-main\\BTL_ConGa\\BTL_ConGa.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
