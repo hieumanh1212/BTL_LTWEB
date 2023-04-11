@@ -96,6 +96,28 @@ namespace BTL_ConGa.Areas.NhanVien.Controllers
             var lstHoaDonBan = db.HoaDonBans.Find(mahoadon);
             return View(lstHoaDonBan);
         }
+        [Route("dangxuat")]
+        public IActionResult DangXuat()
+        {
+            HttpContext.Session.Clear();
+            HttpContext.Session.Remove("UserName");
+            return RedirectToAction("TrangChu", "TrangChu");
+        }
 
+        [Route("hoso")]
+        public IActionResult HoSo()
+        {
+            ViewBag.IDNhanVien = HttpContext.Session.GetString("IDNhanVien");
+            ViewBag.TenNhanVien = HttpContext.Session.GetString("Name");
+            ViewBag.DiaChi = HttpContext.Session.GetString("Address");
+            ViewBag.NgaySinh = HttpContext.Session.GetString("Birth");
+            ViewBag.Email = HttpContext.Session.GetString("Email");
+            ViewBag.SoDienThoai = HttpContext.Session.GetString("Phone");
+            ViewBag.GioiTinh = HttpContext.Session.GetString("Gender");
+            ViewBag.Password = HttpContext.Session.GetString("Password");
+            ViewBag.Username = HttpContext.Session.GetString("UserName");
+
+            return View();
+        }
     }
 }

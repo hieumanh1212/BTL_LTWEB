@@ -81,17 +81,32 @@ namespace BTL_ConGa.Controllers
             {
                 var u = db.TaiKhoans.Where(x => x.TaiKhoan1 == user.TaiKhoan1 && x.MatKhau == user.MatKhau).FirstOrDefault();
                 var k = db.KhachHangs.Where(x => x.TaiKhoan == user.TaiKhoan1).FirstOrDefault();
+                var l = db.NhanViens.Where(x => x.TaiKhoan == user.TaiKhoan1).FirstOrDefault();
                 if (u != null)
                 {
                     HttpContext.Session.SetString("UserName", u.TaiKhoan1.ToString());
                     HttpContext.Session.SetString("Password", u.MatKhau.ToString());
-                    HttpContext.Session.SetString("IDCustomer", k.IdkhachHang.ToString());
-                    HttpContext.Session.SetString("Name", k.TenKhachHang.ToString());
-                    HttpContext.Session.SetString("Phone", k.SoDienThoai.ToString());
-                    HttpContext.Session.SetString("Address", k.DiaChi.ToString());
-                    HttpContext.Session.SetString("Email", k.Email.ToString());
-                    HttpContext.Session.SetString("Gender", k.GioiTinh.ToString());
-                    HttpContext.Session.SetString("Birth", k.NgaySinh.ToString("yyyy-MM-dd"));
+                    if(k!= null)
+                    {
+                        HttpContext.Session.SetString("IDCustomer", k.IdkhachHang.ToString());
+                        HttpContext.Session.SetString("Name", k.TenKhachHang.ToString());
+                        HttpContext.Session.SetString("Phone", k.SoDienThoai.ToString());
+                        HttpContext.Session.SetString("Address", k.DiaChi.ToString());
+                        HttpContext.Session.SetString("Email", k.Email.ToString());
+                        HttpContext.Session.SetString("Gender", k.GioiTinh.ToString());
+                        HttpContext.Session.SetString("Birth", k.NgaySinh.ToString("yyyy-MM-dd"));
+                    }
+                    if(l != null)
+                    {
+                        HttpContext.Session.SetString("IDNhanVien", l.MaNhanVien.ToString());
+                        HttpContext.Session.SetString("Name", l.TenNhanVien.ToString());
+                        HttpContext.Session.SetString("Address", l.DiaChi.ToString());
+                        HttpContext.Session.SetString("Birth", l.NgaySinh.ToString("yyyy-MM-dd"));
+                        HttpContext.Session.SetString("Email", l.Email.ToString());
+                        HttpContext.Session.SetString("Phone", l.SoDienThoai.ToString());
+                        HttpContext.Session.SetString("Gender", l.GioiTinh.ToString());
+
+                    }
                     if (u.MaLoaiTaiKhoan == "LTK01")
                     {
                         return RedirectToAction("", "Nhanvien");
