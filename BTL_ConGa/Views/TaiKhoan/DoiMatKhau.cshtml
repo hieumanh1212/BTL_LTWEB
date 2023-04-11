@@ -59,7 +59,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="form-group">
-                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold">ĐỔI MẬT KHẨU</button>
+                                    <button class="form-control" id="subject" style="background-color:red; border-radius: 20px;color:white;font-size:18px;font-weight:bold" onclick="changePassword()">ĐỔI MẬT KHẨU</button>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
@@ -114,12 +114,51 @@
             btn2.className = "fa-solid fa-eye"
         }
     }
+</script>
 
-    var btnDoiMatKhau = document.querySelector("#subject");
-    btnDoiMatKhau.onclick = function () {
+<script type="text/javascript">
+    //Hàm lấy Thêm mới Khách hàng. Dùng $.ajax() thực hiện method HTTP POST
+    function changePassword() {
+        var taikhoan = '@ViewBag.Username';
+        var matkhau = '@ViewBag.Password';
         var matkhaucu = document.getElementById("oldpassword").value;
         var matkhaumoi = document.getElementById("newpassword").value;
         var xacnhanmatkhaumoi = document.getElementById("acceptnewpassword").value;
-        console.log(matkhaumoi);
+
+        let inputMatKhauCu = document.getElementById("oldpassword");
+        let inputMatKhauMoi = document.getElementById("newpassword");
+        let inputXacNhan = document.getElementById("acceptnewpassword");
+        var url = '';
+        if(matkhaucu != matkhau)
+        {
+            alert("Mật khẩu cũ chưa chính xác");
+            return;
+        }
+        else if(matkhaumoi != xacnhanmatkhaumoi)
+        {
+            alert("Mật khẩu mới chưa trùng khớp");
+            return;
+        }
+        else
+        {
+            url = 'https://localhost:7067/api/taikhoanapi/DoiMatKhau?taikhoan=' + taikhoan + '&matkhau=' + matkhaumoi;
+        }
+
+        
+        $.ajax({
+            url: url,
+            method: 'PUT',
+            contentType: 'json',
+            dataType: 'json',
+            error: function (response) {
+                alert("Sửa không thành công");
+            },
+            success: function (reponse) {
+                alert("Cập nhật thành công");
+                inputMatKhauCu.value = "";
+                inputMatKhauMoi.value = "";
+                inputXacNhan.value = "";
+            }
+        });
     }
 </script>

@@ -27,6 +27,7 @@ namespace BTL_ConGa.Controllers
         }
         public IActionResult DoiMatKhau()
         {
+            ViewBag.Username = HttpContext.Session.GetString("UserName");
             ViewBag.Password = HttpContext.Session.GetString("Password");
             return View("Views/TaiKhoan/DoiMatKhau.cshtml");
         }
@@ -93,7 +94,7 @@ namespace BTL_ConGa.Controllers
                     HttpContext.Session.SetString("Birth", k.NgaySinh.ToString("yyyy-MM-dd"));
                     if (u.MaLoaiTaiKhoan == "LTK01")
                     {
-                        return RedirectToAction("ChiTietTaiKhoan", "TaiKhoan");
+                        return RedirectToAction("", "Nhanvien");
                     }
                     else if (u.MaLoaiTaiKhoan == "LTK02")
                     {
@@ -101,7 +102,7 @@ namespace BTL_ConGa.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("DoiMatKhau", "TaiKhoan");
+                        return RedirectToAction("", "Admin");
                     }
                 }
             }

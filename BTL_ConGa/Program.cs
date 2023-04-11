@@ -1,3 +1,4 @@
+using BTL_ConGa.Areas.Admin.Repository;
 using BTL_ConGa.Models;
 using BTL_ConGa.Repository;
 using BTL_ConGa.Service;
@@ -7,10 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 var connectionString = builder.Configuration.GetConnectionString("BtlWebContext");
 builder.Services.AddDbContext<BtlWebContext>(x => x.UseSqlServer(connectionString));
 builder.Services.AddScoped<IDanhMucSPRepository, DanhMucSPRepository>();
 builder.Services.AddScoped<IUserInforService, UserInforService>();
+builder.Services.AddScoped<IDanhMucMonAnRepository, DanhMucMonAnRepository>();
 
 builder.Services.AddSession();
 

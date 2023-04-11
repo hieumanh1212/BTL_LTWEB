@@ -16,7 +16,7 @@
                     <li class="nav-item"><a class="nav-link" asp-controller="TrangChu" asp-action="TrangChu">Trang chủ</a></li>
                     <li class="dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Thực đơn</a>
-                        @await Component.InvokeAsync("DanhMucMenu")
+                        @await Component.InvokeAsync("BTL_ConGa.ViewComponents.DanhMucMenu", new{})
                     </li>
                     <li class="nav-item"><a class="nav-link" asp-controller="KhuyenMai" asp-action="KhuyenMai">Khuyến mại</a></li>
                     <li class="dropdown">

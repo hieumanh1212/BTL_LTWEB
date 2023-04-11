@@ -16,6 +16,106 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Admin\Downloads\BTL_LTWEB-main\BTL_LTWEB-main\BTL_ConGa
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/BaiViet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEJhaVZpZXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ChiTietHoaDonBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENoaVRpZXRIb2FEb25CYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ChiTietMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXENoaVRpZXRNb25Bbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/DanhMucMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXERhbmhNdWNNb25Bbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/FeedBack.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEZlZWRCYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/HoaDonBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEhvYURvbkJhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/KhachHang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXEtoYWNoSGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/MonAnTheoDanhMuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXE1vbkFuVGhlb0RhbmhNdWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/NhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXE5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/TatCaMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRhdENhTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ThongKe.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRob25nS2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/Voucher.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFZvdWNoZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/Shared/Components/DanhMucMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGFuaE11Y01lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9MYXlvdXRBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/Shared/_PartialMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2hhcmVkXF9QYXJ0aWFsTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/ChiTietHoaDonBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXENoaVRpZXRIb2FEb25CYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/ChiTietMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXENoaVRpZXRNb25Bbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/HoaDonBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXEhvYURvbkJhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/MonAnTheoDanhMuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXE1vbkFuVGhlb0RhbmhNdWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/TatCaMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXFRhdENhTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/Shared/Components/DanhMucMenu/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGFuaE11Y01lbnVcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/Shared/_LayoutNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXF9MYXlvdXROaGFuVmllbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/Shared/_PartialMonAn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcU2hhcmVkXF9QYXJ0aWFsTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

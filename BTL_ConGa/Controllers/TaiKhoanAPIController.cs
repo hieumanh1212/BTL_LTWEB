@@ -83,6 +83,7 @@ namespace BTL_ConGa.Controllers
 
         //4. httpPut để chỉnh sửa thông tin một khách hàng
         [HttpPut]
+        [Route("CapNhatKhachHang")]
         public bool UpdateProfile(string makhach, string hovaten, string sodienthoai, string diachi, string email, string gioitinh, DateTime ngaysinh)
         {
             BtlWebContext dbCustomer = new BtlWebContext();
@@ -97,6 +98,20 @@ namespace BTL_ConGa.Controllers
             customer.GioiTinh = gioitinh;
             customer.NgaySinh = ngaysinh;
             dbCustomer.SaveChanges();
+            return true;
+        }
+
+        [HttpPut]
+        [Route("DoiMatKhau")]
+        public bool ChangePassword(string taikhoan, string matkhau)
+        {
+            BtlWebContext db = new BtlWebContext();
+            //Lấy mã khách đã có
+            TaiKhoan tk = db.TaiKhoans.FirstOrDefault(x => x.TaiKhoan1 == taikhoan);
+            if (tk == null) return false;
+            //customer.Makhach = id;
+            tk.MatKhau = matkhau;
+            db.SaveChanges();
             return true;
         }
     }

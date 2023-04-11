@@ -1,5 +1,9 @@
 ﻿@model List<BTL_ConGa.Models.LichSu.LichSuModel>
 
+@{
+    int[] soluongxuathien = new int[ViewBag.SoLuongHDB];
+}
+
 <!-- jQuery library -->
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
 
@@ -51,22 +55,19 @@
                         {
                             <tr>
                                 <td>
-                                    <a id="ShowModal" class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal"
-                                   onclick="HienThiModal('@ViewBag.DanhSachHDB[i].NgayTao.ToString("dd-MM-yyyy")', @ViewBag.DanhSachHDB[i].TongTien, i)">Xem chi tiết</a>
-
-                                </td>
-                                <td>
                                     @{
                                         int count = 0;
                                     }
                                     @for (int j = 0; j < Model.Count; j++)
                                     {
+
                                         @if (count++ == 2)
                                         {
                                             continue;
                                         }
                                         @if (Model[j].MaHoaDon == ViewBag.DanhSachHDB[i].MaHoaDon)
                                         {
+                                            soluongxuathien[i]++;
                                             <img src="@Url.Content("~/chicken/images/ThucDon/" + @Model[j].AnhDaiDien)" width="48" height="48" style="border-radius: 5px" />
                                             <br />
                                         }
@@ -93,6 +94,11 @@
                                 </td>
                                 <td>@ViewBag.DanhSachHDB[i].NgayTao.ToString("dd-MM-yyyy")</td>
                                 <td>@ViewBag.DanhSachHDB[i].TongTien VND</td>
+                                <td>
+                                    <a id="ShowModal" class="btn btn-primary btn-sm" href="#exampleModal" data-toggle="modal"
+                                   onclick="HienThiModal('@ViewBag.DanhSachHDB[i].NgayTao.ToString("dd-MM-yyyy")', @ViewBag.DanhSachHDB[i].TongTien, soluongxuathien[i])">Xem chi tiết</a>
+
+                                </td>
                             </tr>
 
 
@@ -127,38 +133,9 @@
 
                                 </div>
                                 @*Một cái*@
-                                
-                                <div class="row">
-                                    <div class="col">
-                                        <div class="card card-2">
-                                            <div class="card-body">
-                                                <div class="media">
-                                                    <div class="sq align-self-center "> <img class="img-fluid  my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="../chicken/images/thucdon/combo/canhgatruyenthong.png" width="135" height="135" /> </div>
-                                                    <div class="media-body my-auto text-right">
 
-                                                        <div class="row  my-auto flex-column flex-md-row">
-                                                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <a href="../ChiTietMonAn/CanhGaSotNguVi">
-                                                                    <h4 id="TenMonAn" class="mb-0"></h4>
-                                                                </a>
-                                                            </div>
-                                                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <h4 id="SoLuongMonAn" class="mb-0"></h4>
-                                                            </div>
-                                                            <div class="col-lg-4 col-md-4 col-sm-12">
-                                                                <h4 id="GiaTienMonAn" class="mb-0"></h4>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
+                                <div id="CaiCucTo" class="row">
                                 </div>
-
-
-
 
 
 
@@ -177,9 +154,11 @@
                                     </div>
                                 </div>
                                 <div class="row invoice ">
-                                    <div class="col"><p class="mb-1"> Số hóa đơn : 788152</p>
+                                    <div class="col">
+                                        <p class="mb-1"> Số hóa đơn : 788152</p>
                                         <div id="NgayTao" class="mb-1"></div>
-                                        <p class="mb-1">Mã voucher:18KU-62IIK</p></div>
+                                        <p class="mb-1">Mã voucher:18KU-62IIK</p>
+                                    </div>
                                 </div>
                             </div>
                             <div class="card-footer">
@@ -208,8 +187,8 @@
 <br />
 <br />
 
-<script>  
-    function HienThiModal(ngaytao, tien, index) {
+<script>
+    function HienThiModal(ngaytao, tien, soluong) {
         const ShowNgayTao = document.getElementById("NgayTao");
         const ShowTongTien = document.getElementById("TongTien");
         ShowNgayTao.innerHTML = "Ngày mua: " + ngaytao;
@@ -219,8 +198,39 @@
         const ShowSoLuongMonAn = document.getElementById("SoLuongMonAn");
         const ShowGiaTienMonAn = document.getElementById("GiaTienMonAn");
 
+        const ShowCucTo = document.getElementById("CaiCucTo");
+
+        string str = '';
+        for (int i = 0; i < soluong; i++)   //Số lượng là số lượng chi tiết hóa đơn trong một hóa đơn
+        {
+                str += `<div class="col">
+                                                        <div class="card card-2">
+                                                            <div class="card-body">
+                                                                <div class="media">
+                                                                    <div class="sq align-self-center "> <img class="img-fluid  my-auto align-self-center mr-2 mr-md-4 pl-0 p-0 m-0" src="../chicken/images/thucdon/combo/canhgatruyenthong.png" width="135" height="135" /> </div>
+                                                                    <div class="media-body my-auto text-right">
+
+                                                                        <div class="row  my-auto flex-column flex-md-row">
+                                                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                                <a href="../ChiTietMonAn/CanhGaSotNguVi">
+                                                                                    <h4 id="TenMonAn" class="mb-0">Hahaha</h4>
+                                                                                </a>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                                <h4 id="SoLuongMonAn" class="mb-0">Hehehe</h4>
+                                                                            </div>
+                                                                            <div class="col-lg-4 col-md-4 col-sm-12">
+                                                                                <h4 id="GiaTienMonAn" class="mb-0">Hohoho</h4>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+
+                                                            </div>
+                                                        </div>
+                                                    </div>`
+        }
+        ShowCucTo.innerHTML = str;
 
     }
-
-
 </script>

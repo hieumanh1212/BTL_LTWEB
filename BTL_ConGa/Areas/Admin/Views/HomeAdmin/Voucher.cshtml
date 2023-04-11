@@ -1,0 +1,99 @@
+﻿@*@model IEnumerable<BTL_ConGa.Models.Voucher>*@
+@using BTL_ConGa.Models;
+@{
+    ViewData["Title"] = "Voucher";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@*@using X.PagedList.Mvc.Core;
+@model X.PagedList.IPagedList<Voucher>*@
+@model List<Voucher>
+<div class="container-fluid">
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h5 class="m-0 font-weight-bold text-primary">Voucher</h5>
+            <p>
+                <a class="btn btn-primary" asp-action="Create">Thêm Voucher</a>
+            </p>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <table class="table table-bordered dataTable" id="dataTable"
+                                   width="100%" cellspacing="0" role="grid" aria-describedby="dataTable_info"
+                                   style="width: 100%;">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            @*@Html.DisplayNameFor(model => model.TenVoucher)*@
+                                            Mã voucher
+                                        </th>
+                                        <th>
+                                            @*@Html.DisplayNameFor(model => model.TenVoucher)*@
+                                            Tên Vouchar
+                                        </th>
+                                        <th>
+                                           @* @Html.DisplayNameFor(model => model.PhanTram)*@
+                                           Phần trăm
+                                        </th>
+                                        <th>
+                                            @*@Html.DisplayNameFor(model => model.SoLuong)*@
+                                            Số lượng
+                                        </th>
+                                        <th>
+                                            @*@Html.DisplayNameFor(model => model.NgayBatDau)*@
+                                            Ngày bắt đầu
+                                        </th>
+                                        <th>
+                                           @* @Html.DisplayNameFor(model => model.NgayKetThuc)*@
+                                           Ngày kết thúc
+                                        </th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.MaVoucher)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.TenVoucher)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.PhanTram)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.SoLuong)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NgayBatDau)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.NgayKetThuc)
+                                            </td>
+                                            <td>
+                                                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.MaVoucher">Chỉnh sửa</a> |
+                                                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.MaVoucher">Xóa</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    @*@Html.PagedListPager(Model, page=>Url.Action("Voucher", new{page=page}),
+                    new X.PagedList.Web.Common.PagedListRenderOptions(){LiElementClasses = new List<String> {"page-item"},
+                    PageClasses = new List<String> {"page-link"}})*@
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
