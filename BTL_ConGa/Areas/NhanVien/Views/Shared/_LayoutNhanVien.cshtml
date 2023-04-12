@@ -37,7 +37,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">Nhân viên <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Nhân viên</div>
             </a>
 
             <!-- Divider -->
@@ -77,7 +77,14 @@
             <li class="nav-item">
                 <a class="nav-link" asp-area="NhanVien" asp-controller="HomeNhanVien" asp-action="HoaDonBan">
                     <i class="fas fa-fw fa-table"></i>
-                    <span>Hóa đơn bán</span>
+                    <span>Hóa đơn chờ</span>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" asp-area="NhanVien" asp-controller="HomeNhanVien" asp-action="HoaDonBanCuaBan">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Hóa đơn của bạn</span>
                 </a>
             </li>
 

@@ -84,7 +84,7 @@
                                                 <i class="fa-solid fas fa-eye" id="showpasswordhoso3" style="position:absolute; top: 72%;right: 7%"></i>
                                             </div>
                                             @*Button đổi mật khẩu *@
-                                            <button onclick="changePassword()" style="background-color: #007bff;color: #fff;border: none;padding: 10px 20px;font-size: 16px;cursor: pointer;border-radius:10px">
+                                            <button onclick="changePassword1()" style="background-color: #007bff;color: #fff;border: none;padding: 10px 20px;font-size: 16px;cursor: pointer;border-radius:10px">
                                                 Đổi mật khẩu
                                             </button>
                                         </form>
@@ -144,7 +144,7 @@
 
 <!-- Đổi mật khẩu -->
 <script type="text/javascript">
-    function changePassword() {
+    function changePassword1() {
         var taikhoan = '@ViewBag.Username';
         var matkhau = '@ViewBag.Password';
         var matkhaucu = document.getElementById("inputMatKhauCu").value;
@@ -178,9 +178,9 @@
             },
             success: function (reponse) {
                 alert("Cập nhật thành công");
-                inputMatKhauCu.value = "";
-                inputMatKhauMoi.value = "";
-                inputXacNhan.value = "";
+                //inputMatKhauCu.value = "";
+                //inputMatKhauMoi.value = "";
+                //inputXacNhan.value = "";
             }
         });
     }

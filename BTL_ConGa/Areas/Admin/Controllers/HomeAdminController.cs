@@ -18,7 +18,7 @@ namespace BTL_ConGa.Areas.Admin.Controllers
 		[Route("index")]
 		public IActionResult Index()
 		{
-			return View();
+            return RedirectToAction("ThongKe");
 		}
         [Route("thongke")]
         public IActionResult ThongKe()
@@ -239,6 +239,15 @@ namespace BTL_ConGa.Areas.Admin.Controllers
             HttpContext.Session.Clear();
             HttpContext.Session.Remove("UserName");
             return RedirectToAction("TrangChu", "TrangChu");
+        }
+
+        //thêm mới một nhân viên
+        [Route("ThemNhanVienMoi")]
+        [HttpGet]
+        public IActionResult ThemNhanVienMoi()
+        {
+            
+            return View();
         }
     }
 }

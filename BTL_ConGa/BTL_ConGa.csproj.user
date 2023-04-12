@@ -11,9 +11,10 @@
     <WebStackScaffolding_IsLayoutPageSelected>True</WebStackScaffolding_IsLayoutPageSelected>
     <WebStackScaffolding_IsPartialViewSelected>False</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
-    <WebStackScaffolding_LayoutPageFile>~/Areas/NhanVien/Views/Shared/_LayoutNhanVien.cshtml</WebStackScaffolding_LayoutPageFile>
+    <WebStackScaffolding_LayoutPageFile>~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml</WebStackScaffolding_LayoutPageFile>
     <_SelectedScaffolderID>AreaScaffolder</_SelectedScaffolderID>
     <_SelectedScaffolderCategoryPath>root/Common</_SelectedScaffolderCategoryPath>
     <WebStackScaffolding_DependencyDialogWidth>650</WebStackScaffolding_DependencyDialogWidth>
+    <WebStackScaffolding_DbContextTypeFullName>BTL_ConGa.Models.BtlWebContext</WebStackScaffolding_DbContextTypeFullName>
   </PropertyGroup>
 </Project>

@@ -60,6 +60,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRhdENhTW9uQW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ThemNhanVienMoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1OaGFuVmllbk1vaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ThongKe.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRob25nS2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -90,6 +94,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/HoaDonBan.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXEhvYURvbkJhbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/HoaDonBanCuaBan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTmhhblZpZW5cVmlld3NcSG9tZU5oYW5WaWVuXEhvYURvbkJhbkN1YUJhbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/NhanVien/Views/HomeNhanVien/HoSo.cshtml]

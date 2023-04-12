@@ -17,7 +17,7 @@ namespace BTL_ConGa.Areas.NhanVien.Controllers
         [Route("index")]
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("HoSo");
         }
         // Tat Ca Mon An
         //[Route("tatcamonan")]
@@ -86,7 +86,15 @@ namespace BTL_ConGa.Areas.NhanVien.Controllers
         [Route("hoadonban")]
         public IActionResult HoaDonBan()
         {
-            var lstHoaDonBan = db.HoaDonBans.ToList();
+            ViewBag.IDNhanVien = HttpContext.Session.GetString("IDNhanVien");
+            var lstHoaDonBan = db.HoaDonBans.Where(x=>x.TinhTrangDonHang == "Chờ xác nhận").ToList();
+            return View(lstHoaDonBan);
+        }
+
+        [Route("hoadonbancuaban")]
+        public IActionResult HoaDonBanCuaBan()
+        {
+            var lstHoaDonBan = db.HoaDonBans.Where(x => x.MaNhanVien == HttpContext.Session.GetString("IDNhanVien")).ToList();
             return View(lstHoaDonBan);
         }
 

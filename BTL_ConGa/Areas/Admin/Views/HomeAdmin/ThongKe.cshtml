@@ -38,36 +38,36 @@
 
     foreach (var item in Model)
     {
-        if (item.NgayTao.Date == DateTime.Today)
+        if (item.NgayTao.Date == DateTime.Today && item.TinhTrangDonHang == "Đã hoàn thành")
         {
             // Ngày tạo của item trùng với ngày hôm nay
             sohoadonhomnay++;
             sotienhomnay += item.TongTien;
         }
-        if (item.NgayTao.Date == DateTime.Today.AddDays(-1))
+        if (item.NgayTao.Date == DateTime.Today.AddDays(-1) && item.TinhTrangDonHang == "Đã hoàn thành")
         {
             // Ngày tạo của item trùng với ngày hôm qua
             sohoadonhomqua++;
             sotienhomqua += item.TongTien;
         }
-        if (item.NgayTao.Month == DateTime.Today.Month)
+        if (item.NgayTao.Month == DateTime.Today.Month && item.TinhTrangDonHang == "Đã hoàn thành")
         {
             sohoadonthangnay++;
             sotienthangnay += item.TongTien;
         }
         //Năm ngoái
-        for (int i = 1; i <= 12; i++)
+        for (int i = 0; i < 12; i++)
         {
-            if (item.NgayTao.Month == i && item.NgayTao.Year == DateTime.Today.Year - 1)
+            if (item.NgayTao.Month == i && item.NgayTao.Year == DateTime.Today.Year - 1 && item.TinhTrangDonHang == "Đã hoàn thành")
             {
                 sohoadonnamngoai[i]++;
                 sotiennamngoai[i] += item.TongTien;
             }
         }
         //Năm nay
-        for (int i = 1; i <= 12; i++)
+        for (int i = 0; i < 12; i++)
         {
-            if (item.NgayTao.Month == i && item.NgayTao.Year == DateTime.Today.Year)
+            if (item.NgayTao.Month == i && item.NgayTao.Year == DateTime.Today.Year && item.TinhTrangDonHang == "Đã hoàn thành")
             {
                 sohoadonnamnay[i]++;
                 sotiennamnay[i] += item.TongTien;
@@ -113,8 +113,13 @@
                                             </h4>
                                             <h2 class="mb-5">Số hóa đơn: @sohoadonhomnay <br />Doanh thu: @FormatNumber(sotienhomnay)</h2>
                                             @{
-                                                int tang = (int)(sotienhomnay - sotienhomqua / sotienhomqua) * 100;
-                                                int giam = (int)(sotienhomqua - sotienhomnay / sotienhomnay) * 100;
+                                                double tang, giam;
+                                                tang = ((sotienhomnay - sotienhomqua) / sotienhomqua) * 100;
+                                                giam = ((sotienhomqua - sotienhomnay) / sotienhomnay) * 100;
+                                                if(tang < 0)
+                                                {
+                                                    tang = -tang;
+                                                }
                                             }
                                             @if (sotienhomnay >= sotienhomqua)
                                             {
@@ -122,7 +127,7 @@
                                             }
                                             else
                                             {
-                                                <h6 class="mb-5">Doanh thu giảm @giam % so với hôm qua</h6>
+                                                <h6 class="mb-5">Doanh thu giảm @tang % so với hôm qua</h6>
                                             }
                                         </div>
                                     </div>
@@ -210,7 +215,7 @@
 
 <script href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.2.1/chart.min.js"></script>
 <script>
-    const labels = ['Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12']
+    const labels = ['','Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5', 'Tháng 6', 'Tháng 7', 'Tháng 8', 'Tháng 9', 'Tháng 10', 'Tháng 11', 'Tháng 12']
     const datanamnay = JSON.parse('@Html.Raw(Json.Serialize(sotiennamnay))');
     const datanamngoai = JSON.parse('@Html.Raw(Json.Serialize(sotiennamngoai))');
 

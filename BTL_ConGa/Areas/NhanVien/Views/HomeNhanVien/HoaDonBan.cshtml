@@ -1,18 +1,15 @@
-﻿@*@model IEnumerable<BTL_ConGa.Models.HoaDonBan>*@
-@using BTL_ConGa.Models;
+﻿@using BTL_ConGa.Models;
 @{
     ViewData["Title"] = "HoaDonBan";
     Layout = "~/Areas/NhanVien/Views/Shared/_LayoutNhanVien.cshtml";
     BtlWebContext db = new BtlWebContext();
 }
-@*@using X.PagedList.Mvc.Core;
-@model X.PagedList.IPagedList<HoaDonBan>*@
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 @model List<HoaDonBan>
 <div class="container-fluid">
     <div class="card shadow mb-4">
         <div class="card-header py-3">
-            <h5 class="m-0 font-weight-bold text-primary">Hóa đơn bán</h5>
+            <h5 class="m-0 font-weight-bold text-primary">Hóa đơn bán đang chờ xác nhận</h5>
             @*<p>
             <a asp-action="Create">Tạo danh mục</a>
             </p>*@
@@ -33,12 +30,6 @@
                                         <th>
 
                                             Ngày tạo
-                                        </th>
-                                        <th>
-                                            Mã nhân viên
-                                        </th>
-                                        <th>
-                                            Tên nhân viên
                                         </th>
                                         <th>
                                             Tên khách hàng
@@ -85,15 +76,6 @@
                                             </td>
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.NgayTao)
-                                            </td>
-                                            <td>
-                                                @Html.DisplayFor(modelItem => item.MaNhanVien)
-                                            </td>
-                                            <td>
-                                                @{
-                                                    var NhanVien = db.NhanViens.Find(item.MaNhanVien);
-                                                }
-                                                @NhanVien.TenNhanVien
                                             </td>
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.NguoiNhan)
@@ -151,8 +133,9 @@
                                             </td>
                                             <td>
 
-                                                <a class="btn btn-primary" asp-action="ChiTietHoaDonBan" asp-route-mahoadon="@item.MaHoaDon">Chi tiết</a>
-                                                
+                                                <a style="margin-bottom:5px" class="btn btn-primary" asp-action="ChiTietHoaDonBan" asp-route-mahoadon="@item.MaHoaDon">Chi tiết</a>
+
+                                                <a class="btn btn-primary" onclick="XacNhanDonHang('@item.MaHoaDon');">Xác nhận</a>
                                             </td>
                                         </tr>
                                     }
@@ -160,11 +143,33 @@
                             </table>
                         </div>
                     </div>
-                    @*@Html.PagedListPager(Model, page=>Url.Action("HoaDonBan", new{page=page}),
-                    new X.PagedList.Web.Common.PagedListRenderOptions(){LiElementClasses = new List<String> {"page-item"},
-                    PageClasses = new List<String> {"page-link"}})*@
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+
+
+
+
+ <script type="text/javascript">
+    function XacNhanDonHang(mahoadon) {
+        url = 'https://localhost:7067/api/APINhanVien/XacNhanDonHang?mahoadon=' + mahoadon + '&manhanvien=' + '@ViewBag.IDNhanVien';
+
+
+        $.ajax({
+            url: url,
+            method: 'PUT',
+            contentType: 'json',
+            dataType: 'json',
+            error: function (response) {
+                alert("Sửa không thành công");
+            },
+            success: function (reponse) {
+                alert("Cập nhật thành công");
+                location.reload();
+            }
+        });
+    }
+</script>

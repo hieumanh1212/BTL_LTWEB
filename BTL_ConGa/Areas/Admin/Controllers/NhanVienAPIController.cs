@@ -25,34 +25,30 @@ namespace BTL_ConGa.Areas.Admin.Controllers
             return nhanvien;
         }
         [HttpPost]
-        public bool ThemNhanVien(String MaNhanVien, String TenNhanVien, String DiaChi, DateTime NgaySinh, String Email, String SoDienThoai, String GioiTinh, string TaiKhoan, string MatKhau)
+        [Route("ThemNhanVien")]
+        public bool ThemNhanVien(String MaNhanVien, String TenNhanVien, String DiaChi, DateTime NgaySinh, String Email, 
+            String SoDienThoai, String GioiTinh, string TaiKhoan, string MatKhau)
         {
-            try
-            {
-                TaiKhoan taikhoan = new TaiKhoan();
-                taikhoan.TaiKhoan1 = TaiKhoan;
-                taikhoan.MatKhau = MatKhau;
-                taikhoan.MaLoaiTaiKhoan = "LTK01";
-                
+            TaiKhoan taikhoan = new TaiKhoan();
+            taikhoan.TaiKhoan1 = TaiKhoan;
+            taikhoan.MatKhau = MatKhau;
+            taikhoan.MaLoaiTaiKhoan = "LTK01";
+            db.TaiKhoans.Add(taikhoan);
+            db.SaveChanges();
 
-                Models.NhanVien nhanvien = new Models.NhanVien();
-                nhanvien.MaNhanVien = MaNhanVien;
-                nhanvien.TenNhanVien = TenNhanVien;
-                nhanvien.DiaChi = DiaChi;
-                nhanvien.NgaySinh = NgaySinh;
-                nhanvien.Email = Email;
-                nhanvien.SoDienThoai = SoDienThoai;
-                nhanvien.GioiTinh = GioiTinh;
-                nhanvien.TaiKhoan = taikhoan.TaiKhoan1;
-                db.TaiKhoans.AddAsync(taikhoan);
-                db.NhanViens.AddAsync(nhanvien);
-                db.SaveChangesAsync();
-                return true;
-            }
-            catch
-            {
-                return false;
-            }
+            Models.NhanVien nhanvien = new Models.NhanVien();
+            nhanvien.MaNhanVien = MaNhanVien;
+            nhanvien.TenNhanVien = TenNhanVien;
+            nhanvien.DiaChi = DiaChi;
+            nhanvien.NgaySinh = NgaySinh;
+            nhanvien.Email = Email;
+            nhanvien.SoDienThoai = SoDienThoai;
+            nhanvien.GioiTinh = GioiTinh;
+            nhanvien.TaiKhoan = taikhoan.TaiKhoan1;
+
+            db.NhanViens.Add(nhanvien);
+            db.SaveChanges();
+            return true;
         }
     }
 }

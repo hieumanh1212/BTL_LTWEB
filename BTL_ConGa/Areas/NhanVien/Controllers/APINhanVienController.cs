@@ -21,5 +21,19 @@ namespace BTL_ConGa.Areas.NhanVien.Controllers
             db.SaveChanges();
             return true;
         }
+
+        [HttpPut]
+        [Route("XacNhanDonHang")]
+        public bool Confirm(string mahoadon, string manhanvien)
+        {
+            BtlWebContext db = new BtlWebContext();
+            //Lấy mã khách đã có
+            HoaDonBan hd = db.HoaDonBans.FirstOrDefault(x => x.MaHoaDon == mahoadon);
+            if (hd == null) return false;
+            hd.MaNhanVien = manhanvien;
+            hd.TinhTrangDonHang = "Đã hoàn thành";
+            db.SaveChanges();
+            return true;
+        }
     }
 }
