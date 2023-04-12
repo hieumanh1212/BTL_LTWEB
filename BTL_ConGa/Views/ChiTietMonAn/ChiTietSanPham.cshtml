@@ -1,9 +1,5 @@
 ﻿@*@model BTL_ConGa.Models.MonAn*@
-
-
-
-
-
+@inject IHttpContextAccessor HttpContextAccessor
 <!-- Start Top Search -->
 <div class="top-search">
     <div class="container">
@@ -105,7 +101,7 @@
                         <li>
                             <div class="form-group quantity-box">
                                 <label class="control-label">Số lượng</label>
-                                <input class="form-control" value="0" min="0" max="20" type="number">
+                                <input id="SoLuong" class="form-control" value="1" min="1" max="20" type="number">
                             </div>
                         </li>
                     </ul>
@@ -113,7 +109,15 @@
                     <div class="price-box-bar">
                         <div class="cart-and-bay-btn">
                             <a class="btn hvr-hover" data-fancybox-close="" href="#">Mua mới</a>
-                            <a class="btn hvr-hover" data-fancybox-close="" href="#">Thêm vào giỏ hàng</a>
+                            @if (HttpContextAccessor.HttpContext.Session.GetString("UserName") != null)
+                            {
+                                <a class="btn hvr-hover" data-fancybox-close="" onclick="AddToCart('@ViewBag.checkHD','@ViewBag.maHDB','@ViewBag.maMonAn','@ViewBag.maKH')">Thêm vào giỏ hàng</a>
+                            }
+                            else
+                            {
+                                <a class="btn hvr-hover" data-fancybox-close="" href="#">Thêm vào giỏ hàng</a>
+                            }
+
                         </div>
                     </div>
 
@@ -170,8 +174,98 @@
         <!-- SanPhamNoiBat -->
         @Html.Partial("_SanPhamNoiBat")
         <!-- End SanPhamNoiBat -->
-
-
     </div>
 </div>
 <!-- End Cart -->
+
+<script type="text/javascript">
+
+    function AddToCart(checkHD, maHDB, maMonAn, maKH) {
+        var soLuong = document.getElementById("SoLuong");
+        var valueSoLuong = parseInt(soLuong.value);
+
+        const currentUrl = window.location.href;
+
+        if (checkHD == "1") {
+            const data = {
+                SoLuong: valueSoLuong,
+                MaMonAn: maMonAn,
+                MaHoaDon: maHDB
+            };
+
+            //window.location.replace("https://localhost:7067/TaiKhoan/DangNhap");
+            fetch('https://localhost:7067/api/GioHangAPI/invoiceDetailExsits', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu đăng kí thành công, chuyển hướng đến trang "Thank you"
+                        alert("Thêm giỏ hàng thành công")
+                    } else {
+                        //Trường hợp đã có sản phẩm trong giỏ hàng
+                        fetch('https://localhost:7067/api/GioHangAPI/' + maHDB + '/' + maMonAn + '/' + soLuong.value, {
+                            method: 'PUT',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                        })
+                            .then(response => {
+                                alert("Thêm giỏ hàng thành công");
+                                console.log(response);
+                                // Xử lý dữ liệu trả về nếu có
+                            })
+                            .catch(error => {
+                                console.log(error);
+                            });
+
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi:', error);
+                });
+        }
+        if (checkHD == "0") {
+            const data = {
+                MaHDB: maHDB,
+                NgayTao: "2022-04-07T10:20:30",
+                TongTien: 0,
+                TrangThaiThanhToan: "Chưa thanh toán",
+                DiaChiGiaoHang: "",
+                SoDienThoai: "",
+                NguoiNhan: "",
+                GhiChu: "",
+                TinhTrangDonHang: "Thêm giỏ hàng",
+                MaVoucher: "",
+                IDKhachHang: maKH,
+                MaNhanVien: "NV00",
+                MaMonAn: maMonAn,
+                SoLuong: valueSoLuong
+            };
+
+            //window.location.replace("https://localhost:7067/TaiKhoan/DangNhap");
+            fetch('https://localhost:7067/api/GioHangAPI/invoiceDetail', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        // Nếu đăng kí thành công, chuyển hướng đến trang "Thank you"
+                        alert("Thêm giỏ hàng thành công");
+                        window.location.href = currentUrl;
+                    } else {
+                        alert('Món ăn này đã có trong giỏ hàng');
+                    }
+                })
+                .catch(error => {
+                    console.error('Lỗi:', error);
+                });
+        }
+    }
+</script>

@@ -114,5 +114,31 @@ namespace BTL_ConGa.Controllers
             db.SaveChanges();
             return true;
         }
+
+        //[Route("LichSuHoaDon11")]
+        [HttpGet("{MaHDB}")]
+        public async Task<IActionResult> LichSuDonHang(string MaHDB)
+        {
+            //var queryGetHistoryOrder = from product in db.MonAns
+            //                           select new { product };
+            var queryGetHistoryOrder = from product in db.MonAns
+                                       join invoiceDetail in db.ChiTietHoaDonBans on product.MaMonAn equals invoiceDetail.MaMonAn
+                                       join invoice in db.HoaDonBans on invoiceDetail.MaHoaDon equals invoice.MaHoaDon
+                                       where invoice.MaHoaDon == MaHDB && invoice.TinhTrangDonHang != "Thêm giỏ hàng"
+                                       select new
+                                       {
+                                           product.MaMonAn,
+                                           invoice.MaHoaDon,
+                                           invoice.NgayTao,
+                                           invoice.MaVoucher,
+                                           product.AnhDaiDien,
+                                           product.TenMonAn,
+                                           product.DonGia,
+                                           invoiceDetail.SoLuong,
+                                           invoice.TongTien,
+                                           ThanhTien = invoiceDetail.SoLuong * product.DonGia
+                                       };
+            return Ok(queryGetHistoryOrder);
+        }
     }
 }

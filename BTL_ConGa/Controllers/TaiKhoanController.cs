@@ -33,32 +33,24 @@ namespace BTL_ConGa.Controllers
         }
         public IActionResult LichSuDatHang()
         {
-            var hdb = (from p in db.MonAns
-                       join d in db.ChiTietHoaDonBans
-                       on p.MaMonAn equals d.MaMonAn
-                       join g in db.HoaDonBans
-                       on d.MaHoaDon equals g.MaHoaDon
-                       where g.IdkhachHang == HttpContext.Session.GetString("IDCustomer")
-                       orderby g.MaHoaDon
-                       select new LichSuModel
-                       {
-                           MaHoaDon = g.MaHoaDon, 
-                           NgayTao = g.NgayTao,
-                           TongTien = g.TongTien,
-                           IdkhachHang = g.IdkhachHang,
-                           SoLuong = d.SoLuong,
-                           MaMonAn = p.MaMonAn,
-                           TenMonAn = p.TenMonAn,
-                           DonGia = p.DonGia,
-                           AnhDaiDien = p.AnhDaiDien
-                       }).ToList();
-
+            //Lấy chi tiết hóa đơn
+            var invoiceDetail = (from product in db.MonAns
+                                 join invoiDetail in db.ChiTietHoaDonBans on product.MaMonAn equals invoiDetail.MaMonAn
+                                 join invoice in db.HoaDonBans on invoiDetail.MaHoaDon equals invoice.MaHoaDon
+                                 select new
+                                 {
+                                     product.MaMonAn,
+                                     product.AnhDaiDien,
+                                     product.TenMonAn,
+                                     invoice.MaHoaDon
+                                 }).ToList();
+            ViewBag.invoiceDetail = invoiceDetail;
+            string taiKhoan = HttpContext.Session.GetString("UserName");
+            string getCustomerId = db.KhachHangs.FirstOrDefault(x => x.TaiKhoan == taiKhoan).IdkhachHang;
             //Liệt kê các hóa đơn của khách hàng X
-            var soluonghdb = db.HoaDonBans.Where(x => x.IdkhachHang == HttpContext.Session.GetString("IDCustomer")).ToList();
-            ViewBag.DanhSachHDB = soluonghdb;
-            ViewBag.SoLuongHDB = soluonghdb.Count;
+            var HoaDonBan = db.HoaDonBans.Where(x => x.IdkhachHang == getCustomerId && x.TinhTrangDonHang != "Thêm giỏ hàng").ToList();
             //var chitiethdb = db.ChiTietHoaDonBans.Where(x=>x.MaHoaDon == )
-            return View(hdb);
+            return View(HoaDonBan);
         }
 
         [HttpGet]

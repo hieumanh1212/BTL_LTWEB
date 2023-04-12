@@ -22,7 +22,6 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\NhanVien\Data\" />
     <Folder Include="Areas\NhanVien\Models\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Pages\" />
     <Folder Include="wwwroot\Chicken\images\LienHe\" />
     <Folder Include="wwwroot\Chicken\images\ThucDon\DongGia\" />

@@ -2,6 +2,7 @@ using BTL_ConGa.Areas.Admin.Repository;
 using BTL_ConGa.Models;
 using BTL_ConGa.Repository;
 using BTL_ConGa.Service;
+using BTL_ConGa.Service.GioHang;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -14,7 +15,7 @@ builder.Services.AddDbContext<BtlWebContext>(x => x.UseSqlServer(connectionStrin
 builder.Services.AddScoped<IDanhMucSPRepository, DanhMucSPRepository>();
 builder.Services.AddScoped<IUserInforService, UserInforService>();
 builder.Services.AddScoped<IDanhMucMonAnRepository, DanhMucMonAnRepository>();
-
+builder.Services.AddScoped<IGioHangService, GioHangService>();
 builder.Services.AddSession();
 
 builder.Services.AddHttpContextAccessor();
