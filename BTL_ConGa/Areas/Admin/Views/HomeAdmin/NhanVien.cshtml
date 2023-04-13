@@ -17,6 +17,7 @@
                 <a class="btn btn-primary" asp-action="ThemNhanVienMoi">Thêm nhân viên</a>
             </p>
         </div>
+        <p>@TempData["Message"]</p>
         <div class="card-body">
             <div class="table-responsive">
                 <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
@@ -99,11 +100,13 @@
                                         </td>
 
                                         <td>
-                                            <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.MaNhanVien">Chỉnh sửa</a> |
-                                            <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.MaNhanVien">Xóa</a>
+                                            <a class="btn btn-primary" asp-action="SuaNhanVien" asp-route-maNhanVien="@item.MaNhanVien">Chỉnh sửa</a> |
+                                            <a class="btn btn-primary" asp-action="XoaNhanVien" asp-route-maNhanVien="@item.MaNhanVien">Xóa</a>
+                                           
                                         </td>
                                     </tr>
                             }
+
                                 </tbody>
                             </table>
                         </div>
@@ -116,3 +119,4 @@
         </div>
     </div>
 </div>
+

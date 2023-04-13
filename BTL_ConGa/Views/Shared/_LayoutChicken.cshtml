@@ -58,7 +58,15 @@
                     </div>
                     <div class="our-link">
                         <ul>
-                            <li><a asp-controller="TaiKhoan" asp-action="TaiKhoan"><i class="fa fa-user s_color"></i>Tài Khoản của tôi</a></li>
+                            @if (HttpContextAccessor.HttpContext.Session.GetString("UserName") != null)
+                            {
+                                <li><a asp-controller="TaiKhoan" asp-action="TaiKhoan"><i class="fa fa-user s_color"></i>Tài Khoản của tôi</a></li>
+                            }
+                            else
+                            {
+                                <li><a asp-controller="TaiKhoan" asp-action="DangNhap"><i class="fa fa-user s_color"></i>Tài Khoản của tôi</a></li>
+                            }
+                            
                             <li><a asp-controller="ThongTin" asp-action="DiaChiNhaHang"><i class="fas fa-location-arrow"></i>Địa điểm của chúng tôi</a></li>
                             <li><a asp-controller="ThongTin" asp-action="LienHe"><i class="fas fa-headset"></i> Liên hệ với chúng tôi</a></li>
                         </ul>

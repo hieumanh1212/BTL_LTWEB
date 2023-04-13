@@ -13,9 +13,10 @@
         <div class="card-header py-3">
             <h5 class="m-0 font-weight-bold text-primary">Danh mục món ăn</h5>
             <p>
-                <a class="btn btn-primary" asp-action="Create">Tạo danh mục</a>
+                <a class="btn btn-primary" asp-action="ThemDanhMuc">Tạo danh mục</a>
             </p>
         </div>
+        <p>@TempData["Message"]</p>
         <div class="card-body">
             <div class="table-responsive">
                 <div id="dataTable_wrapper" class="dataTables_wrapper dt-bootstrap4">
@@ -46,8 +47,8 @@
                                                 @Html.DisplayFor(modelItem => item.TenDanhMuc)
                                             </td>
                                             <td>
-                                                <a class="btn btn-primary" asp-action="Edit" asp-route-id="@item.MaDanhMuc">Chỉnh sửa</a> |
-                                                <a class="btn btn-primary" asp-action="Delete" asp-route-id="@item.MaDanhMuc">Xóa</a>
+                                                <a class="btn btn-primary" asp-action="SuaDanhMuc" asp-route-maDanhMuc="@item.MaDanhMuc">Chỉnh sửa</a> |
+                                                <a class="btn btn-primary" asp-action="XoaDanhMuc" asp-route-maDanhMuc="@item.MaDanhMuc">Xóa</a>
                                             </td>
                                         </tr>
                                 }

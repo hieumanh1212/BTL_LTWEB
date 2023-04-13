@@ -56,8 +56,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXE5oYW5WaWVuLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/SuaDanhMuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YURhbmhNdWMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/SuaNhanVien.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFN1YU5oYW5WaWVuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/TatCaMonAn.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRhdENhTW9uQW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ThemDanhMuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcSG9tZUFkbWluXFRoZW1EYW5oTXVjLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Areas/Admin/Views/HomeAdmin/ThemNhanVienMoi.cshtml]
@@ -306,6 +318,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Views/TaiKhoan/LichSuDatHang.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cTGljaFN1RGF0SGFuZy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Views/TaiKhoan/LichSuDatHangChoXacNhan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cTGljaFN1RGF0SGFuZ0Nob1hhY05oYW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Admin/Downloads/BTL_LTWEB-main/BTL_LTWEB-main/BTL_ConGa/Views/TaiKhoan/TaiKhoan.cshtml]

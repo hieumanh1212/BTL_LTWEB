@@ -249,5 +249,122 @@ namespace BTL_ConGa.Areas.Admin.Controllers
             
             return View();
         }
+
+        [Route("SuaDanhMuc")]
+        [HttpGet]
+        public IActionResult SuaDanhMuc(string maDanhMuc)
+        {
+            ViewBag.MaDanhMuc = new SelectList(db.DanhMucs.ToList(), "MaDanhMuc", "TenDanhMuc");
+            var danhMuc = db.DanhMucs.Find(maDanhMuc);
+            return View(danhMuc);
+        }
+        [Route("SuaDanhMuc")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SuaDanhMuc(DanhMuc danhMuc)
+        {
+            if (ModelState.IsValid)
+            {
+                db.Update(danhMuc);
+                db.SaveChanges();
+                return RedirectToAction("DanhMucMonAn");
+
+            }
+            return View(danhMuc);
+        }
+        [Route("XoaDanhMuc")]
+        [HttpGet]
+        public IActionResult XoaDanhMuc(string maDanhMuc)
+        {
+            TempData["Message"] = "";
+            var monAn = db.MonAns.Where(x => x.MaDanhMuc == maDanhMuc).ToList();
+            if (monAn.Count() > 0)
+            {
+                TempData["Message"] = "Không xóa được danh mục này";
+                return RedirectToAction("DanhMucMonAn");
+            }
+            db.Remove(db.DanhMucs.Find(maDanhMuc));
+            db.SaveChanges();
+            TempData["Message"] = "Danh mục đã được xóa";
+            return RedirectToAction("DanhMucMonAn");
+        }
+        [Route("Split")]
+        public int splitId(string id)
+        {
+            //KH002 
+            string res = id.Substring(2, id.Length - 2);
+            return int.Parse(res);
+        }
+        [Route("ThemDanhMuc")]
+        public IActionResult ThemDanhMuc()
+        {
+            var lastDanhMuc = db.DanhMucs.ToList();
+            int lastId = splitId(lastDanhMuc.OrderByDescending(x => splitId(x.MaDanhMuc)).FirstOrDefault().MaDanhMuc.ToString());
+            ViewBag.lastId = lastId;
+            return View();
+        }
+
+        [Route("SuaNhanVien")]
+        [HttpGet]
+        public IActionResult SuaNhanVien(string maNhanVien)
+        {
+            // Lấy đối tượng NhanVien cần sửa từ CSDL bằng mã nhân viên
+            var nhanVien = db.NhanViens.Find(maNhanVien);
+            //ViewBag.TaiKhoan = new SelectList(db.TaiKhoans, "MaLoaiTaiKhoan", "TaiKhoan");
+            ViewBag.TaiKhoan = db.NhanViens.FirstOrDefault(x => x.MaNhanVien == maNhanVien).TaiKhoan;
+            ViewBag.GioiTinh = new List<SelectListItem>
+            {
+                new SelectListItem { Value = "Nam", Text = "Nam" },
+                new SelectListItem { Value = "Nữ", Text = "Nữ" },
+            };
+
+
+            return View(nhanVien); // Trả về view hiển thị form sửa đối tượng
+        }
+
+        [Route("SuaNhanVien")]
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult SuaNhanVien(Models.NhanVien nhanVien)
+        {
+
+
+            // Cập nhật thông tin của đối tượng NhanVien trong CSDL
+            db.Entry(nhanVien).State = EntityState.Modified;
+
+            db.SaveChanges();
+
+            return RedirectToAction("NhanVien"); // Trở về trang danh sách đối tượng
+
+        }
+
+        [Route("XoaNhanVien")]
+        [HttpGet]
+        public IActionResult XoaNhanVien(string maNhanVien)
+        {
+            TempData["Message"] = "";
+            var hoaDonBan = db.HoaDonBans.FirstOrDefault(h => h.MaNhanVien == maNhanVien);
+            if (hoaDonBan != null)
+            {
+                TempData["Message"] = "Không thể xóa nhân viên này vì đã có hóa đơn bán liên quan";
+                return RedirectToAction("NhanVien");
+            }
+            var nhanVien = db.NhanViens.Find(maNhanVien);
+            if (nhanVien == null)
+            {
+                return NotFound();
+            }
+            db.NhanViens.Remove(nhanVien);
+            var taiKhoan = db.TaiKhoans.FirstOrDefault(t => t.TaiKhoan1 == nhanVien.TaiKhoan);
+            if (taiKhoan != null)
+            {
+                db.TaiKhoans.Remove(taiKhoan);
+            }
+
+
+            db.SaveChanges();
+            TempData["Message"] = "Nhân viên và tài khoản của nhân viên đã được xóa";
+            return RedirectToAction("NhanVien");
+        }
     }
 }

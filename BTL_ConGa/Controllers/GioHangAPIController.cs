@@ -206,5 +206,19 @@ namespace BTL_ConGa.Controllers
             await db.SaveChangesAsync();
             return Ok(hoaDon);
         }
+
+        //Hủy hóa đơn đang chờ xác nhận
+        [Route("deleteInvoice")]
+        [HttpDelete]
+        public async Task<IActionResult> deleteInvoice(string maHDB)
+        {
+            var invoiceDetail = db.ChiTietHoaDonBans.Where(x => x.MaHoaDon == maHDB).ToList();
+            db.ChiTietHoaDonBans.RemoveRange(invoiceDetail);
+            await db.SaveChangesAsync();
+            var invoice = db.HoaDonBans.FirstOrDefault(x => x.MaHoaDon == maHDB);
+            db.HoaDonBans.Remove(invoice);
+            await db.SaveChangesAsync();
+            return Ok(invoiceDetail);
+        }
     }
 }

@@ -48,7 +48,29 @@ namespace BTL_ConGa.Controllers
             string taiKhoan = HttpContext.Session.GetString("UserName");
             string getCustomerId = db.KhachHangs.FirstOrDefault(x => x.TaiKhoan == taiKhoan).IdkhachHang;
             //Liệt kê các hóa đơn của khách hàng X
-            var HoaDonBan = db.HoaDonBans.Where(x => x.IdkhachHang == getCustomerId && x.TinhTrangDonHang != "Thêm giỏ hàng").ToList();
+            var HoaDonBan = db.HoaDonBans.Where(x => x.IdkhachHang == getCustomerId && x.TinhTrangDonHang == "Đã hoàn thành").ToList();
+            //var chitiethdb = db.ChiTietHoaDonBans.Where(x=>x.MaHoaDon == )
+            return View(HoaDonBan);
+        }
+
+        public IActionResult LichSuDatHangChoXacNhan()
+        {
+            //Lấy chi tiết hóa đơn
+            var invoiceDetail = (from product in db.MonAns
+                                 join invoiDetail in db.ChiTietHoaDonBans on product.MaMonAn equals invoiDetail.MaMonAn
+                                 join invoice in db.HoaDonBans on invoiDetail.MaHoaDon equals invoice.MaHoaDon
+                                 select new
+                                 {
+                                     product.MaMonAn,
+                                     product.AnhDaiDien,
+                                     product.TenMonAn,
+                                     invoice.MaHoaDon
+                                 }).ToList();
+            ViewBag.invoiceDetail = invoiceDetail;
+            string taiKhoan = HttpContext.Session.GetString("UserName");
+            string getCustomerId = db.KhachHangs.FirstOrDefault(x => x.TaiKhoan == taiKhoan).IdkhachHang;
+            //Liệt kê các hóa đơn của khách hàng X
+            var HoaDonBan = db.HoaDonBans.Where(x => x.IdkhachHang == getCustomerId && x.TinhTrangDonHang == "Chờ xác nhận").ToList();
             //var chitiethdb = db.ChiTietHoaDonBans.Where(x=>x.MaHoaDon == )
             return View(HoaDonBan);
         }
@@ -101,7 +123,7 @@ namespace BTL_ConGa.Controllers
                     }
                     if (u.MaLoaiTaiKhoan == "LTK01")
                     {
-                        return RedirectToAction("", "Nhanvien");
+                        return RedirectToAction("Index", "Nhanvien");
                     }
                     else if (u.MaLoaiTaiKhoan == "LTK02")
                     {
@@ -109,7 +131,7 @@ namespace BTL_ConGa.Controllers
                     }
                     else
                     {
-                        return RedirectToAction("", "Admin");
+                        return RedirectToAction("Index", "Admin");
                     }
                 }
             }

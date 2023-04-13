@@ -1,4 +1,6 @@
-﻿<header class="main-header">
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+<header class="main-header">
     <!-- Start Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-default bootsnav">
         <div class="container">
@@ -33,14 +35,28 @@
             <!-- Start Atribute Navigation -->
             <div class="attr-nav">
                 <ul>
-                    <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
-                    <li class="side-menu">
-                        <a id="Gio-Hang" asp-controller="GioHang" asp-action="GioHang">
-                            <i class="fa fa-shopping-bag"></i>
-                            <span class="badge">3</span>
-                            <p>Giỏ hàng</p>
+                    @if (HttpContextAccessor.HttpContext.Session.GetString("UserName") != null)
+                    {
+                        <li class="side-menu">
+                           <a id="Gio-Hang" asp-controller="GioHang" asp-action="GioHang">
+                               <i class="fa fa-shopping-bag"></i>
+
+                               <p>Giỏ hàng</p>
                         </a>
-                    </li>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="side-menu">
+                            <a id="Gio-Hang" asp-controller="TaiKhoan" asp-action="DangNhap">
+                                <i class="fa fa-shopping-bag"></i>
+
+                                <p>Giỏ hàng</p>
+                            </a>
+                        </li>
+                    }
+
+                    
                 </ul>
             </div>
             <!-- End Atribute Navigation -->
